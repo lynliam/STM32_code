@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="fans_stm32f103"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/bsp/fans_stm32f103/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;F:/bsp/fans_stm32f103/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;F:/bsp/fans_stm32f103/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;F:/bsp/fans_stm32f103/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;F:/bsp/fans_stm32f103/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fans_stm32f103.elf">
+				<Option output="F:/bsp/fans_stm32f103/cmake-build-debug/fans_stm32f103.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/bsp/fans_stm32f103/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="F:/bsp/fans_stm32f103/Core/Inc"/>
+					<Add directory="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="F:/bsp/fans_stm32f103/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include"/>
+					<Add directory="F:/bsp/fans_stm32f103/driver/include"/>
+					<Add directory="F:/bsp/fans_stm32f103/driver/eMPL"/>
+					<Add directory="F:/bsp/fans_stm32f103/eMPL-hal"/>
+					<Add directory="F:/bsp/fans_stm32f103/mllite"/>
+					<Add directory="F:/bsp/fans_stm32f103/mpl"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;F:/bsp/fans_stm32f103/cmake-build-debug/Makefile&quot;  VERBOSE=1 fans_stm32f103.elf"/>
+					<CompileFile command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;F:/bsp/fans_stm32f103/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;F:/bsp/fans_stm32f103/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;F:/bsp/fans_stm32f103/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fans_stm32f103.elf/fast">
+				<Option output="F:/bsp/fans_stm32f103/cmake-build-debug/fans_stm32f103.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/bsp/fans_stm32f103/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="F:/bsp/fans_stm32f103/Core/Inc"/>
+					<Add directory="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="F:/bsp/fans_stm32f103/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include"/>
+					<Add directory="F:/bsp/fans_stm32f103/driver/include"/>
+					<Add directory="F:/bsp/fans_stm32f103/driver/eMPL"/>
+					<Add directory="F:/bsp/fans_stm32f103/eMPL-hal"/>
+					<Add directory="F:/bsp/fans_stm32f103/mllite"/>
+					<Add directory="F:/bsp/fans_stm32f103/mpl"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;F:/bsp/fans_stm32f103/cmake-build-debug/Makefile&quot;  VERBOSE=1 fans_stm32f103.elf/fast"/>
+					<CompileFile command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;F:/bsp/fans_stm32f103/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;F:/bsp/fans_stm32f103/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;F:/bsp/fans_stm32f103/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/bsp/fans_stm32f103/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;F:/bsp/fans_stm32f103/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;F:/bsp/fans_stm32f103/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;F:/bsp/fans_stm32f103/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;F:/bsp/fans_stm32f103/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/bsp/fans_stm32f103/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;F:/bsp/fans_stm32f103/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;F:/bsp/fans_stm32f103/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;F:/bsp/fans_stm32f103/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;F:/bsp/fans_stm32f103/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Inc/Mpu6050.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Inc/gpio.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Inc/i2c.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Inc/main.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Inc/motor.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Inc/retarget.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Inc/stm32f1xx_it.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Inc/tim.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Inc/usart.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Src/Mpu6050.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Src/gpio.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Src/i2c.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Src/main.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Src/motor.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Src/retarget.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Src/stm32f1xx_it.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Src/syscalls.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Src/sysmem.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Src/system_stm32f1xx.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Src/tim.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Src/usart.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Core/Startup/startup_stm32f103c8tx.s">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/CMSIS/LICENSE.txt">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_i2c.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/STM32F103C8TX_FLASH.ld">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/driver/eMPL/dmpKey.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/driver/eMPL/dmpmap.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/driver/eMPL/inv_mpu.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/driver/eMPL/inv_mpu.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/driver/eMPL/inv_mpu_dmp_motion_driver.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/driver/eMPL/inv_mpu_dmp_motion_driver.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/eMPL-hal/eMPL_outputs.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/eMPL-hal/eMPL_outputs.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mllite/data_builder.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mllite/data_builder.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mllite/hal_outputs.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mllite/hal_outputs.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mllite/invensense.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mllite/message_layer.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mllite/message_layer.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mllite/ml_math_func.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mllite/ml_math_func.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mllite/mlmath.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mllite/mpl.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mllite/mpl.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mllite/results_holder.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mllite/results_holder.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mllite/start_manager.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mllite/start_manager.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mllite/storage_manager.c">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mllite/storage_manager.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mpl/accel_auto_cal.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mpl/compass_vec_cal.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mpl/fast_no_motion.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mpl/fusion_9axis.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mpl/gyro_tc.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mpl/heading_from_gyro.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mpl/inv_math.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mpl/invensense_adv.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mpl/libmpllib.a">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mpl/mag_disturb.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mpl/motion_no_motion.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mpl/no_gyro_fusion.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/mpl/quaternion_supervisor.h">
+			<Option target="fans_stm32f103.elf"/>
+		</Unit>
+		<Unit filename="F:/bsp/fans_stm32f103/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

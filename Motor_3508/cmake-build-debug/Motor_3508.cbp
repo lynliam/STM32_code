@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Motor_3508"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/SingleChips/bsp/Motor_3508/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Motor_3508.elf">
+				<Option output="E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Motor_3508.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/SingleChips/bsp/Motor_3508/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F427xx"/>
+					<Add directory="E:/SingleChips/bsp/Motor_3508/Core/Inc"/>
+					<Add directory="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include"/>
+					<Add directory="E:/SingleChips/bsp/Motor_3508/User"/>
+					<Add directory="E:/SingleChips/bsp/Motor_3508/User/UC"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Makefile&quot;  VERBOSE=1 Motor_3508.elf"/>
+					<CompileFile command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Motor_3508.elf/fast">
+				<Option output="E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Motor_3508.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/SingleChips/bsp/Motor_3508/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F427xx"/>
+					<Add directory="E:/SingleChips/bsp/Motor_3508/Core/Inc"/>
+					<Add directory="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include"/>
+					<Add directory="E:/SingleChips/bsp/Motor_3508/User"/>
+					<Add directory="E:/SingleChips/bsp/Motor_3508/User/UC"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Makefile&quot;  VERBOSE=1 Motor_3508.elf/fast"/>
+					<CompileFile command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/SingleChips/bsp/Motor_3508/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/SingleChips/bsp/Motor_3508/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Core/Inc/can.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Core/Inc/gpio.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Core/Inc/main.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Core/Inc/stm32f4xx_it.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Core/Src/can.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Core/Src/gpio.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Core/Src/main.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Core/Src/stm32f4xx_it.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Core/Src/syscalls.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Core/Src/sysmem.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Core/Src/system_stm32f4xx.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Core/Startup/startup_stm32f427iihx.s">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/LICENSE.txt">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/STM32F427IIHX_FLASH.ld">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/User/UC/Caculate.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/User/UC/Caculate.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/User/UC/DJI.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/User/UC/DJI.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/User/UC/wtr_can.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/User/UC/wtr_can.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/User/bsp_LED.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/User/bsp_LED.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

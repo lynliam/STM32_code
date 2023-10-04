@@ -1,6 +1,15 @@
 //
 // Created by liam on 2023/10/3.
 //
+/**
+ * @file Unitree_user.c
+ * @author Liam (quan.2003@outlook.com)
+ * @brief Unitree_M8010-6电机用户端代码
+ * @version 1.0
+ * @data 2023-10-04
+ *
+ * @copyright Copyright (c) 2023
+ */
 
 #include "Unitree_user.h"
 
@@ -53,6 +62,7 @@ HAL_StatusTypeDef Unitree_UART_tranANDrev(UnitreeMotor *MotorInstance, unsigned 
     else
         return HAL_ERROR;
 }
+
 
 
 

@@ -8,7 +8,6 @@
 #include "motor_control.h"
 
 
-
 typedef struct{
     MOTOR_send cmd;
     MOTOR_recv data;

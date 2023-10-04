@@ -1,43 +1,13 @@
 #include "usart.h"
 #include "motor_control.h"
 #include "crc_ccitt.h"
-#include "stdio.h"
 
 #define SATURATE(_IN, _MIN, _MAX) {\
  if (_IN < _MIN)\
  _IN = _MIN;\
  else if (_IN > _MAX)\
  _IN = _MAX;\
- } 
-
-
-//uint32_t crc32_core(uint32_t* ptr, uint32_t len)
-//{
-//    uint32_t xbit = 0;
-//    uint32_t data = 0;
-//    uint32_t CRC32 = 0xFFFFFFFF;
-//    const uint32_t dwPolynomial = 0x04c11db7;
-//    for (uint32_t i = 0; i < len; i++)
-//    {
-//        xbit = 1 << 31;
-//        data = ptr[i];
-//        for (uint32_t bits = 0; bits < 32; bits++)
-//        {
-//            if (CRC32 & 0x80000000)
-//            {
-//                CRC32 <<= 1;
-//                CRC32 ^= dwPolynomial;
-//            }
-//            else
-//                CRC32 <<= 1;
-//            if (data & xbit)
-//                CRC32 ^= dwPolynomial;
-
-//            xbit >>= 1;
-//        }
-//    }
-//    return CRC32;
-//}
+ }
 
 /**
  * 发送数据预处理
@@ -69,6 +39,11 @@ int modify_data(MOTOR_send *motor_s)
     return 0;
 }
 
+/**
+ * 接收数据解包函数
+ * @param motor_r
+ * @return
+ */
 int extract_data(MOTOR_recv *motor_r)
 {
     if(motor_r->motor_recv_data.CRC16 !=

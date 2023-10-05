@@ -93,7 +93,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
 				},
 				{
 					"backtrace" : 5,
@@ -130,9 +130,6 @@
 				{
 					"backtrace" : 8,
 					"fragment" : "-g"
-				},
-				{
-					"fragment" : "-std=gnu11"
 				}
 			],
 			"defines" : 
@@ -154,27 +151,27 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Quan2/Desktop/competition/servo_usart/Core/Inc"
+					"path" : "E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc"
+					"path" : "E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+					"path" : "E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+					"path" : "E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include"
+					"path" : "E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Quan2/Desktop/competition/servo_usart/User"
+					"path" : "E:/SingleChips/bsp/stm32f103c8t6_servo_uart/User"
 				}
 			],
 			"language" : "C",
@@ -283,27 +280,27 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Quan2/Desktop/competition/servo_usart/Core/Inc"
+					"path" : "E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc"
+					"path" : "E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+					"path" : "E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+					"path" : "E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include"
+					"path" : "E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Quan2/Desktop/competition/servo_usart/User"
+					"path" : "E:/SingleChips/bsp/stm32f103c8t6_servo_uart/User"
 				}
 			],
 			"language" : "ASM",
@@ -316,7 +313,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu++17 -fdiagnostics-color=always"
 				},
 				{
 					"backtrace" : 5,
@@ -353,9 +350,6 @@
 				{
 					"backtrace" : 8,
 					"fragment" : "-g"
-				},
-				{
-					"fragment" : "-std=gnu++17"
 				}
 			],
 			"defines" : 
@@ -377,27 +371,27 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Quan2/Desktop/competition/servo_usart/Core/Inc"
+					"path" : "E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc"
+					"path" : "E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+					"path" : "E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+					"path" : "E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include"
+					"path" : "E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/Quan2/Desktop/competition/servo_usart/User"
+					"path" : "E:/SingleChips/bsp/stm32f103c8t6_servo_uart/User"
 				}
 			],
 			"language" : "CXX",
@@ -430,7 +424,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/servo_usart.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/servo_usart.map",
 				"role" : "flags"
 			},
 			{
@@ -455,7 +449,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "C:/Users/Quan2/Desktop/competition/servo_usart/STM32F103C8TX_FLASH.ld",
+				"fragment" : "E:/SingleChips/bsp/stm32f103c8t6_servo_uart/STM32F103C8TX_FLASH.ld",
 				"role" : "flags"
 			}
 		],

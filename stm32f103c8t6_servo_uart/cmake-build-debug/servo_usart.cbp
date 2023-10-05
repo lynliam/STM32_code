@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug"/>
+				<Option working_dir="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="servo_usart.elf">
-				<Option output="C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/servo_usart.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug"/>
+				<Option output="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/servo_usart.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -27,29 +27,29 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xB"/>
-					<Add directory="C:/Users/Quan2/Desktop/competition/servo_usart/Core/Inc"/>
-					<Add directory="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc"/>
-					<Add directory="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
-					<Add directory="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include"/>
-					<Add directory="C:/Users/Quan2/Desktop/competition/servo_usart/User"/>
-					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
-					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
-					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
-					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
-					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
-					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+					<Add directory="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Core/Inc"/>
+					<Add directory="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include"/>
+					<Add directory="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/User"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 servo_usart.elf"/>
-					<CompileFile command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/Makefile&quot;  VERBOSE=1 servo_usart.elf"/>
+					<CompileFile command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="servo_usart.elf/fast">
-				<Option output="C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/servo_usart.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug"/>
+				<Option output="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/servo_usart.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -57,312 +57,312 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xB"/>
-					<Add directory="C:/Users/Quan2/Desktop/competition/servo_usart/Core/Inc"/>
-					<Add directory="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc"/>
-					<Add directory="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
-					<Add directory="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include"/>
-					<Add directory="C:/Users/Quan2/Desktop/competition/servo_usart/User"/>
-					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
-					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
-					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
-					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
-					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
-					<Add directory="d:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+					<Add directory="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Core/Inc"/>
+					<Add directory="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include"/>
+					<Add directory="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/User"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 servo_usart.elf/fast"/>
-					<CompileFile command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/Makefile&quot;  VERBOSE=1 servo_usart.elf/fast"/>
+					<CompileFile command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug"/>
+				<Option working_dir="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug"/>
+				<Option working_dir="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program File/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/Environment/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Core/Inc/gpio.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Core/Inc/gpio.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Core/Inc/main.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Core/Inc/main.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Core/Inc/stm32f1xx_hal_conf.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Core/Inc/stm32f1xx_hal_conf.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Core/Inc/stm32f1xx_it.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Core/Inc/stm32f1xx_it.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Core/Inc/usart.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Core/Inc/usart.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Core/Src/gpio.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Core/Src/gpio.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Core/Src/main.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Core/Src/main.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Core/Src/stm32f1xx_hal_msp.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Core/Src/stm32f1xx_hal_msp.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Core/Src/stm32f1xx_it.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Core/Src/stm32f1xx_it.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Core/Src/syscalls.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Core/Src/syscalls.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Core/Src/sysmem.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Core/Src/sysmem.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Core/Src/system_stm32f1xx.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Core/Src/system_stm32f1xx.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Core/Src/usart.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Core/Src/usart.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Core/Startup/startup_stm32f103c8tx.s">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Core/Startup/startup_stm32f103c8tx.s">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include/cmsis_armcc.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include/cmsis_armcc.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include/cmsis_armclang.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include/cmsis_armclang.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include/cmsis_compiler.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include/cmsis_compiler.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include/cmsis_gcc.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include/cmsis_gcc.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include/cmsis_iccarm.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include/cmsis_iccarm.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include/cmsis_version.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include/cmsis_version.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include/core_armv8mbl.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include/core_armv8mbl.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include/core_armv8mml.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include/core_armv8mml.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include/core_cm0.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include/core_cm0.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include/core_cm0plus.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include/core_cm0plus.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include/core_cm1.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include/core_cm1.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include/core_cm23.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include/core_cm23.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include/core_cm3.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include/core_cm3.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include/core_cm33.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include/core_cm33.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include/core_cm4.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include/core_cm4.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include/core_cm7.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include/core_cm7.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include/core_sc000.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include/core_sc000.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include/core_sc300.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include/core_sc300.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include/mpu_armv7.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include/mpu_armv7.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include/mpu_armv8.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include/mpu_armv8.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/Include/tz_context.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/Include/tz_context.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/CMSIS/LICENSE.txt">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/CMSIS/LICENSE.txt">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/STM32F103C8TX_FLASH.ld">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/STM32F103C8TX_FLASH.ld">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/User/MyMain.cpp">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/User/MyMain.cpp">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/User/MyMain.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/User/MyMain.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/User/Servo_uart.hpp">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/User/Servo_uart.hpp">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/User/retarget.c">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/User/retarget.c">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/User/retarget.h">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/User/retarget.h">
 			<Option target="servo_usart.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Quan2/Desktop/competition/servo_usart/CMakeLists.txt">
+		<Unit filename="E:/SingleChips/bsp/stm32f103c8t6_servo_uart/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -22,9 +22,6 @@
   <component name="ChangeListManager">
     <list default="true" id="471dbb30-b69b-4315-b3b9-e31d7396fd49" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/Unitree_SDK/GO-M8010-6.c" beforeDir="false" afterPath="$PROJECT_DIR$/User/Unitree_SDK/GO-M8010-6.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/Unitree_SDK/Unitree_user.c" beforeDir="false" afterPath="$PROJECT_DIR$/User/Unitree_SDK/Unitree_user.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/Unitree_SDK/Unitree_user.h" beforeDir="false" afterPath="$PROJECT_DIR$/User/Unitree_SDK/Unitree_user.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +89,8 @@
       <workItem from="1696388317280" duration="4510000" />
       <workItem from="1696393559984" duration="4286000" />
       <workItem from="1696400539333" duration="595000" />
+      <workItem from="1696420024411" duration="83000" />
+      <workItem from="1696430695089" duration="21000" />
     </task>
     <servers />
   </component>

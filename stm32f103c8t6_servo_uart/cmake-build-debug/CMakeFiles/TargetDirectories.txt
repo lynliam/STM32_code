@@ -1,3 +1,3 @@
-C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/CMakeFiles/servo_usart.elf.dir
-C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/CMakeFiles/servo_usart.elf.dir
+E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/CMakeFiles/rebuild_cache.dir

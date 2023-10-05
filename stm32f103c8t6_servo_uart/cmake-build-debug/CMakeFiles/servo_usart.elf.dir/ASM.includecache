@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Quan2/Desktop/competition/servo_usart/Core/Startup/startup_stm32f103c8tx.s
+E:/SingleChips/bsp/stm32f103c8t6_servo_uart/Core/Startup/startup_stm32f103c8tx.s
 

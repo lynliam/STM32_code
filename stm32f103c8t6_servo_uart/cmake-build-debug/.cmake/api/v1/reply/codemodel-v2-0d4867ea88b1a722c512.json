@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.25"
+						"string" : "3.26"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "servo_usart.elf::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-servo_usart.elf-Debug-919416eab01064f2bcad.json",
+					"jsonFile" : "target-servo_usart.elf-Debug-f72bef4bc7c88ed10e40.json",
 					"name" : "servo_usart.elf",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug",
-		"source" : "C:/Users/Quan2/Desktop/competition/servo_usart"
+		"build" : "E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug",
+		"source" : "E:/SingleChips/bsp/stm32f103c8t6_servo_uart"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 5
 	}
 }

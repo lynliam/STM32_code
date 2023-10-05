@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Quan2/Desktop/competition/servo_usart
+# Install script for directory: E:/SingleChips/bsp/stm32f103c8t6_servo_uart
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Quan2/Desktop/competition/servo_usart/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/SingleChips/bsp/stm32f103c8t6_servo_uart/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

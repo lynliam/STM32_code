@@ -33,6 +33,7 @@
 					<Add directory="E:/SingleChips/bsp/Unitree_M8010/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="E:/SingleChips/bsp/Unitree_M8010/Drivers/CMSIS/Include"/>
 					<Add directory="E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK"/>
+					<Add directory="E:/SingleChips/bsp/Unitree_M8010/User/retarget"/>
 					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -63,6 +64,7 @@
 					<Add directory="E:/SingleChips/bsp/Unitree_M8010/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="E:/SingleChips/bsp/Unitree_M8010/Drivers/CMSIS/Include"/>
 					<Add directory="E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK"/>
+					<Add directory="E:/SingleChips/bsp/Unitree_M8010/User/retarget"/>
 					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -98,6 +100,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/SingleChips/bsp/Unitree_M8010/Core/Inc/dma.h">
+			<Option target="Unitree_M8010.elf"/>
+		</Unit>
 		<Unit filename="E:/SingleChips/bsp/Unitree_M8010/Core/Inc/gpio.h">
 			<Option target="Unitree_M8010.elf"/>
 		</Unit>
@@ -111,6 +116,9 @@
 			<Option target="Unitree_M8010.elf"/>
 		</Unit>
 		<Unit filename="E:/SingleChips/bsp/Unitree_M8010/Core/Inc/usart.h">
+			<Option target="Unitree_M8010.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Unitree_M8010/Core/Src/dma.c">
 			<Option target="Unitree_M8010.elf"/>
 		</Unit>
 		<Unit filename="E:/SingleChips/bsp/Unitree_M8010/Core/Src/gpio.c">
@@ -357,6 +365,30 @@
 			<Option target="Unitree_M8010.elf"/>
 		</Unit>
 		<Unit filename="E:/SingleChips/bsp/Unitree_M8010/STM32F427IIHX_FLASH.ld">
+			<Option target="Unitree_M8010.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/GO-M8010-6.c">
+			<Option target="Unitree_M8010.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/Unitree_user.c">
+			<Option target="Unitree_M8010.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/Unitree_user.h">
+			<Option target="Unitree_M8010.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/crc_ccitt.h">
+			<Option target="Unitree_M8010.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/motor_control.h">
+			<Option target="Unitree_M8010.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/ris_protocol.h">
+			<Option target="Unitree_M8010.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Unitree_M8010/User/retarget/retarget.c">
+			<Option target="Unitree_M8010.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Unitree_M8010/User/retarget/retarget.h">
 			<Option target="Unitree_M8010.elf"/>
 		</Unit>
 		<Unit filename="E:/SingleChips/bsp/Unitree_M8010/CMakeLists.txt">

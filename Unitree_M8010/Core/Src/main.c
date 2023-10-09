@@ -18,12 +18,15 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "dma.h"
 #include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "Unitree_user.h"
+#include "retarget.h"
+#include <stdio.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -86,15 +89,26 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_DMA_Init();
   MX_USART6_UART_Init();
+  MX_UART8_Init();
   /* USER CODE BEGIN 2 */
-
+    RetargetInit(&huart8);
+    Unitree_init(&Unitree_Motor[0]);
+    Unitree_UART_tranANDrev(Unitree_Motor,0,1,0,0,0,0.02,0.0);
+    uint8_t a = 0;
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+      HAL_Delay(10);
+      //printf("%lu\n",huart6.Instance->BRR);
+      Unitree_UART_tranANDrev(Unitree_Motor,0,1,0,0,3.14,0.1,0.0);
+      //printf("%d\n",a);
+      printf("%f,%f,%f\n",Unitree_Motor[0].data.T,Unitree_Motor[0].data.W,Unitree_Motor[0].data.Pos);
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -124,17 +138,10 @@ void SystemClock_Config(void)
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
   RCC_OscInitStruct.PLL.PLLM = 6;
-  RCC_OscInitStruct.PLL.PLLN = 180;
+  RCC_OscInitStruct.PLL.PLLN = 160;
   RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
   RCC_OscInitStruct.PLL.PLLQ = 4;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
-  {
-    Error_Handler();
-  }
-
-  /** Activate the Over-Drive mode
-  */
-  if (HAL_PWREx_EnableOverDrive() != HAL_OK)
   {
     Error_Handler();
   }

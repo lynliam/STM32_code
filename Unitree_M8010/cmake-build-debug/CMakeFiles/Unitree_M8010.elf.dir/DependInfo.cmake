@@ -27,10 +27,12 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "E:/SingleChips/bsp/Unitree_M8010/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
   "E:/SingleChips/bsp/Unitree_M8010/Drivers/CMSIS/Include"
   "E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK"
+  "E:/SingleChips/bsp/Unitree_M8010/User/retarget"
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "E:/SingleChips/bsp/Unitree_M8010/Core/Src/dma.c" "CMakeFiles/Unitree_M8010.elf.dir/Core/Src/dma.c.obj" "gcc" "CMakeFiles/Unitree_M8010.elf.dir/Core/Src/dma.c.obj.d"
   "E:/SingleChips/bsp/Unitree_M8010/Core/Src/gpio.c" "CMakeFiles/Unitree_M8010.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/Unitree_M8010.elf.dir/Core/Src/gpio.c.obj.d"
   "E:/SingleChips/bsp/Unitree_M8010/Core/Src/main.c" "CMakeFiles/Unitree_M8010.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/Unitree_M8010.elf.dir/Core/Src/main.c.obj.d"
   "E:/SingleChips/bsp/Unitree_M8010/Core/Src/stm32f4xx_hal_msp.c" "CMakeFiles/Unitree_M8010.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" "gcc" "CMakeFiles/Unitree_M8010.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj.d"
@@ -55,6 +57,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" "CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" "gcc" "CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj.d"
   "E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" "CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" "gcc" "CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj.d"
   "E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" "CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" "gcc" "CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj.d"
+  "E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/GO-M8010-6.c" "CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.obj" "gcc" "CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.obj.d"
+  "E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/Unitree_user.c" "CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.obj" "gcc" "CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.obj.d"
+  "E:/SingleChips/bsp/Unitree_M8010/User/retarget/retarget.c" "CMakeFiles/Unitree_M8010.elf.dir/User/retarget/retarget.c.obj" "gcc" "CMakeFiles/Unitree_M8010.elf.dir/User/retarget/retarget.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

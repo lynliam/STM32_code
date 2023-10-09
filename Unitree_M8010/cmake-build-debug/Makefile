@@ -128,6 +128,30 @@ Unitree_M8010.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unitree_M8010.elf.dir\build.make CMakeFiles/Unitree_M8010.elf.dir/build
 .PHONY : Unitree_M8010.elf/fast
 
+Core/Src/dma.obj: Core/Src/dma.c.obj
+.PHONY : Core/Src/dma.obj
+
+# target to build an object file
+Core/Src/dma.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unitree_M8010.elf.dir\build.make CMakeFiles/Unitree_M8010.elf.dir/Core/Src/dma.c.obj
+.PHONY : Core/Src/dma.c.obj
+
+Core/Src/dma.i: Core/Src/dma.c.i
+.PHONY : Core/Src/dma.i
+
+# target to preprocess a source file
+Core/Src/dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unitree_M8010.elf.dir\build.make CMakeFiles/Unitree_M8010.elf.dir/Core/Src/dma.c.i
+.PHONY : Core/Src/dma.c.i
+
+Core/Src/dma.s: Core/Src/dma.c.s
+.PHONY : Core/Src/dma.s
+
+# target to generate assembly for a file
+Core/Src/dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unitree_M8010.elf.dir\build.make CMakeFiles/Unitree_M8010.elf.dir/Core/Src/dma.c.s
+.PHONY : Core/Src/dma.c.s
+
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 .PHONY : Core/Src/gpio.obj
 
@@ -712,6 +736,78 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unitree_M8010.elf.dir\build.make CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 
+User/Unitree_SDK/GO-M8010-6.obj: User/Unitree_SDK/GO-M8010-6.c.obj
+.PHONY : User/Unitree_SDK/GO-M8010-6.obj
+
+# target to build an object file
+User/Unitree_SDK/GO-M8010-6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unitree_M8010.elf.dir\build.make CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.obj
+.PHONY : User/Unitree_SDK/GO-M8010-6.c.obj
+
+User/Unitree_SDK/GO-M8010-6.i: User/Unitree_SDK/GO-M8010-6.c.i
+.PHONY : User/Unitree_SDK/GO-M8010-6.i
+
+# target to preprocess a source file
+User/Unitree_SDK/GO-M8010-6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unitree_M8010.elf.dir\build.make CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.i
+.PHONY : User/Unitree_SDK/GO-M8010-6.c.i
+
+User/Unitree_SDK/GO-M8010-6.s: User/Unitree_SDK/GO-M8010-6.c.s
+.PHONY : User/Unitree_SDK/GO-M8010-6.s
+
+# target to generate assembly for a file
+User/Unitree_SDK/GO-M8010-6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unitree_M8010.elf.dir\build.make CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.s
+.PHONY : User/Unitree_SDK/GO-M8010-6.c.s
+
+User/Unitree_SDK/Unitree_user.obj: User/Unitree_SDK/Unitree_user.c.obj
+.PHONY : User/Unitree_SDK/Unitree_user.obj
+
+# target to build an object file
+User/Unitree_SDK/Unitree_user.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unitree_M8010.elf.dir\build.make CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.obj
+.PHONY : User/Unitree_SDK/Unitree_user.c.obj
+
+User/Unitree_SDK/Unitree_user.i: User/Unitree_SDK/Unitree_user.c.i
+.PHONY : User/Unitree_SDK/Unitree_user.i
+
+# target to preprocess a source file
+User/Unitree_SDK/Unitree_user.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unitree_M8010.elf.dir\build.make CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.i
+.PHONY : User/Unitree_SDK/Unitree_user.c.i
+
+User/Unitree_SDK/Unitree_user.s: User/Unitree_SDK/Unitree_user.c.s
+.PHONY : User/Unitree_SDK/Unitree_user.s
+
+# target to generate assembly for a file
+User/Unitree_SDK/Unitree_user.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unitree_M8010.elf.dir\build.make CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.s
+.PHONY : User/Unitree_SDK/Unitree_user.c.s
+
+User/retarget/retarget.obj: User/retarget/retarget.c.obj
+.PHONY : User/retarget/retarget.obj
+
+# target to build an object file
+User/retarget/retarget.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unitree_M8010.elf.dir\build.make CMakeFiles/Unitree_M8010.elf.dir/User/retarget/retarget.c.obj
+.PHONY : User/retarget/retarget.c.obj
+
+User/retarget/retarget.i: User/retarget/retarget.c.i
+.PHONY : User/retarget/retarget.i
+
+# target to preprocess a source file
+User/retarget/retarget.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unitree_M8010.elf.dir\build.make CMakeFiles/Unitree_M8010.elf.dir/User/retarget/retarget.c.i
+.PHONY : User/retarget/retarget.c.i
+
+User/retarget/retarget.s: User/retarget/retarget.c.s
+.PHONY : User/retarget/retarget.s
+
+# target to generate assembly for a file
+User/retarget/retarget.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unitree_M8010.elf.dir\build.make CMakeFiles/Unitree_M8010.elf.dir/User/retarget/retarget.c.s
+.PHONY : User/retarget/retarget.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -721,6 +817,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Unitree_M8010.elf
+	@echo ... Core/Src/dma.obj
+	@echo ... Core/Src/dma.i
+	@echo ... Core/Src/dma.s
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s
@@ -794,6 +893,15 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s
+	@echo ... User/Unitree_SDK/GO-M8010-6.obj
+	@echo ... User/Unitree_SDK/GO-M8010-6.i
+	@echo ... User/Unitree_SDK/GO-M8010-6.s
+	@echo ... User/Unitree_SDK/Unitree_user.obj
+	@echo ... User/Unitree_SDK/Unitree_user.i
+	@echo ... User/Unitree_SDK/Unitree_user.s
+	@echo ... User/retarget/retarget.obj
+	@echo ... User/retarget/retarget.i
+	@echo ... User/retarget/retarget.s
 .PHONY : help
 
 

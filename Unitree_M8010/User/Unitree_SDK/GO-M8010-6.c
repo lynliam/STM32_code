@@ -66,7 +66,7 @@ int extract_data(MOTOR_recv *motor_r)
         return motor_r->correct;
     }
 }
-
+/*
 HAL_StatusTypeDef SERVO_Send_recv(MOTOR_send *pData, MOTOR_recv *rData)
 {
     uint16_t rxlen = 0;
@@ -80,8 +80,8 @@ HAL_StatusTypeDef SERVO_Send_recv(MOTOR_send *pData, MOTOR_recv *rData)
 
 		SET_485_RE_DOWN();
 		SET_485_DE_DOWN();
-    HAL_UARTEx_ReceiveToIdle(&huart6, (uint8_t *)rData, sizeof(rData->motor_recv_data), &rxlen, 10);
-		
+    HAL_UARTEx_ReceiveToIdle(&huart6, (uint8_t *)rData, sizeof(rData->motor_recv_data), &rxlen, 100);
+    HAL_UART_Transmit(&huart8,(uint8_t *)rData,sizeof(rData->motor_recv_data),0xfff);
 
     if(rxlen == 0)
 
@@ -98,5 +98,32 @@ HAL_StatusTypeDef SERVO_Send_recv(MOTOR_send *pData, MOTOR_recv *rData)
         return HAL_OK;
     }
     
-    return HAL_ERROR;
+    return HAL_BUSY;
+}
+*/
+
+HAL_StatusTypeDef SERVO_Send_recv(MOTOR_send *pData, MOTOR_recv *rData)
+{
+    modify_data(pData);
+
+    SET_485_DE_UP();
+    SET_485_RE_UP();
+    HAL_UART_Transmit(&huart6, (uint8_t *)pData, sizeof(pData->motor_send_data), 10);
+
+
+    SET_485_RE_DOWN();
+    SET_485_DE_DOWN();
+
+    HAL_UARTEx_ReceiveToIdle_DMA(&huart6, (uint8_t *)rData, sizeof(rData->motor_recv_data));
+    //HAL_UART_Transmit(&huart8,(uint8_t *)rData,sizeof(rData->motor_recv_data),0xff);
+
+    uint8_t *rp = (uint8_t *)&rData->motor_recv_data;
+    if(rp[0] == 0xFD && rp[1] == 0xEE)
+    {
+        rData->correct = 1;
+        extract_data(rData);
+        return HAL_OK;
+    }
+
+    return HAL_BUSY;
 }

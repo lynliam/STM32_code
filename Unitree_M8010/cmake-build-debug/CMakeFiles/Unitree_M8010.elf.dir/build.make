@@ -68,10 +68,24 @@ include CMakeFiles/Unitree_M8010.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Unitree_M8010.elf.dir/flags.make
 
+CMakeFiles/Unitree_M8010.elf.dir/Core/Src/dma.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
+CMakeFiles/Unitree_M8010.elf.dir/Core/Src/dma.c.obj: E:/SingleChips/bsp/Unitree_M8010/Core/Src/dma.c
+CMakeFiles/Unitree_M8010.elf.dir/Core/Src/dma.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Core/Src/dma.c.obj"
+	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Core/Src/dma.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Core\Src\dma.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Core\Src\dma.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Core\Src\dma.c
+
+CMakeFiles/Unitree_M8010.elf.dir/Core/Src/dma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Unitree_M8010.elf.dir/Core/Src/dma.c.i"
+	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\SingleChips\bsp\Unitree_M8010\Core\Src\dma.c > CMakeFiles\Unitree_M8010.elf.dir\Core\Src\dma.c.i
+
+CMakeFiles/Unitree_M8010.elf.dir/Core/Src/dma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Unitree_M8010.elf.dir/Core/Src/dma.c.s"
+	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\SingleChips\bsp\Unitree_M8010\Core\Src\dma.c -o CMakeFiles\Unitree_M8010.elf.dir\Core\Src\dma.c.s
+
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/gpio.c.obj: E:/SingleChips/bsp/Unitree_M8010/Core/Src/gpio.c
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Core/Src/gpio.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Core\Src\gpio.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Core\Src\gpio.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -85,7 +99,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Core/Src/gpio.c.s: cmake_force
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/main.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/main.c.obj: E:/SingleChips/bsp/Unitree_M8010/Core/Src/main.c
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/main.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Core/Src/main.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Core\Src\main.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Core\Src\main.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/main.c.i: cmake_force
@@ -99,7 +113,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: E:/SingleChips/bsp/Unitree_M8010/Core/Src/stm32f4xx_hal_msp.c
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/stm32f4xx_it.c.obj: E:/SingleChips/bsp/Unitree_M8010/Core/Src/stm32f4xx_it.c
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Core/Src/stm32f4xx_it.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Core\Src\stm32f4xx_it.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/syscalls.c.obj: E:/SingleChips/bsp/Unitree_M8010/Core/Src/syscalls.c
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Core/Src/syscalls.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Core\Src\syscalls.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Core\Src\syscalls.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/sysmem.c.obj: E:/SingleChips/bsp/Unitree_M8010/Core/Src/sysmem.c
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Core/Src/sysmem.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Core\Src\sysmem.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Core\Src\sysmem.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/system_stm32f4xx.c.obj: E:/SingleChips/bsp/Unitree_M8010/Core/Src/system_stm32f4xx.c
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Core/Src/system_stm32f4xx.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Core\Src\system_stm32f4xx.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/usart.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/usart.c.obj: E:/SingleChips/bsp/Unitree_M8010/Core/Src/usart.c
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/usart.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Core/Src/usart.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Core\Src\usart.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Core\Src\usart.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -182,7 +196,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Core/Src/usart.c.s: cmake_force
 
 CMakeFiles/Unitree_M8010.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj: E:/SingleChips/bsp/Unitree_M8010/Core/Startup/startup_stm32f427iihx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object CMakeFiles/Unitree_M8010.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/Unitree_M8010.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Unitree_M8010.elf.dir\Core\Startup\startup_stm32f427iihx.s.obj -c E:\SingleChips\bsp\Unitree_M8010\Core\Startup\startup_stm32f427iihx.s
 
 CMakeFiles/Unitree_M8010.elf.dir/Core/Startup/startup_stm32f427iihx.s.i: cmake_force
@@ -196,7 +210,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Core/Startup/startup_stm32f427iihx.s.s: cmake_f
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -210,7 +224,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -224,7 +238,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -238,7 +252,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -252,7 +266,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -266,7 +280,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -280,7 +294,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -294,7 +308,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -308,7 +322,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -322,7 +336,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -336,7 +350,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -350,7 +364,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -364,7 +378,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -378,7 +392,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -392,7 +406,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -406,7 +420,7 @@ CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c E:\SingleChips\bsp\Unitree_M8010\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
@@ -417,8 +431,51 @@ CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\SingleChips\bsp\Unitree_M8010\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\Unitree_M8010.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
 
+CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
+CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.obj: E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/GO-M8010-6.c
+CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.obj"
+	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\User\Unitree_SDK\GO-M8010-6.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\User\Unitree_SDK\GO-M8010-6.c.obj -c E:\SingleChips\bsp\Unitree_M8010\User\Unitree_SDK\GO-M8010-6.c
+
+CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.i"
+	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\SingleChips\bsp\Unitree_M8010\User\Unitree_SDK\GO-M8010-6.c > CMakeFiles\Unitree_M8010.elf.dir\User\Unitree_SDK\GO-M8010-6.c.i
+
+CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.s"
+	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\SingleChips\bsp\Unitree_M8010\User\Unitree_SDK\GO-M8010-6.c -o CMakeFiles\Unitree_M8010.elf.dir\User\Unitree_SDK\GO-M8010-6.c.s
+
+CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
+CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.obj: E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/Unitree_user.c
+CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.obj"
+	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\User\Unitree_SDK\Unitree_user.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\User\Unitree_SDK\Unitree_user.c.obj -c E:\SingleChips\bsp\Unitree_M8010\User\Unitree_SDK\Unitree_user.c
+
+CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.i"
+	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\SingleChips\bsp\Unitree_M8010\User\Unitree_SDK\Unitree_user.c > CMakeFiles\Unitree_M8010.elf.dir\User\Unitree_SDK\Unitree_user.c.i
+
+CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.s"
+	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\SingleChips\bsp\Unitree_M8010\User\Unitree_SDK\Unitree_user.c -o CMakeFiles\Unitree_M8010.elf.dir\User\Unitree_SDK\Unitree_user.c.s
+
+CMakeFiles/Unitree_M8010.elf.dir/User/retarget/retarget.c.obj: CMakeFiles/Unitree_M8010.elf.dir/flags.make
+CMakeFiles/Unitree_M8010.elf.dir/User/retarget/retarget.c.obj: E:/SingleChips/bsp/Unitree_M8010/User/retarget/retarget.c
+CMakeFiles/Unitree_M8010.elf.dir/User/retarget/retarget.c.obj: CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Unitree_M8010.elf.dir/User/retarget/retarget.c.obj"
+	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Unitree_M8010.elf.dir/User/retarget/retarget.c.obj -MF CMakeFiles\Unitree_M8010.elf.dir\User\retarget\retarget.c.obj.d -o CMakeFiles\Unitree_M8010.elf.dir\User\retarget\retarget.c.obj -c E:\SingleChips\bsp\Unitree_M8010\User\retarget\retarget.c
+
+CMakeFiles/Unitree_M8010.elf.dir/User/retarget/retarget.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Unitree_M8010.elf.dir/User/retarget/retarget.c.i"
+	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\SingleChips\bsp\Unitree_M8010\User\retarget\retarget.c > CMakeFiles\Unitree_M8010.elf.dir\User\retarget\retarget.c.i
+
+CMakeFiles/Unitree_M8010.elf.dir/User/retarget/retarget.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Unitree_M8010.elf.dir/User/retarget/retarget.c.s"
+	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\SingleChips\bsp\Unitree_M8010\User\retarget\retarget.c -o CMakeFiles\Unitree_M8010.elf.dir\User\retarget\retarget.c.s
+
 # Object files for target Unitree_M8010.elf
 Unitree_M8010_elf_OBJECTS = \
+"CMakeFiles/Unitree_M8010.elf.dir/Core/Src/dma.c.obj" \
 "CMakeFiles/Unitree_M8010.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/Unitree_M8010.elf.dir/Core/Src/main.c.obj" \
 "CMakeFiles/Unitree_M8010.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" \
@@ -443,11 +500,15 @@ Unitree_M8010_elf_OBJECTS = \
 "CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" \
 "CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" \
 "CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
-"CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+"CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" \
+"CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.obj" \
+"CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.obj" \
+"CMakeFiles/Unitree_M8010.elf.dir/User/retarget/retarget.c.obj"
 
 # External object files for target Unitree_M8010.elf
 Unitree_M8010_elf_EXTERNAL_OBJECTS =
 
+Unitree_M8010.elf: CMakeFiles/Unitree_M8010.elf.dir/Core/Src/dma.c.obj
 Unitree_M8010.elf: CMakeFiles/Unitree_M8010.elf.dir/Core/Src/gpio.c.obj
 Unitree_M8010.elf: CMakeFiles/Unitree_M8010.elf.dir/Core/Src/main.c.obj
 Unitree_M8010.elf: CMakeFiles/Unitree_M8010.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
@@ -473,9 +534,12 @@ Unitree_M8010.elf: CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver
 Unitree_M8010.elf: CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 Unitree_M8010.elf: CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 Unitree_M8010.elf: CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+Unitree_M8010.elf: CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.obj
+Unitree_M8010.elf: CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.obj
+Unitree_M8010.elf: CMakeFiles/Unitree_M8010.elf.dir/User/retarget/retarget.c.obj
 Unitree_M8010.elf: CMakeFiles/Unitree_M8010.elf.dir/build.make
 Unitree_M8010.elf: CMakeFiles/Unitree_M8010.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C executable Unitree_M8010.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\SingleChips\bsp\Unitree_M8010\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking C executable Unitree_M8010.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Unitree_M8010.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/SingleChips/bsp/Unitree_M8010/cmake-build-debug/Unitree_M8010.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/SingleChips/bsp/Unitree_M8010/cmake-build-debug/Unitree_M8010.bin"

@@ -9,6 +9,23 @@
  * @data 2023-10-04
  *
  * @copyright Copyright (c) 2023
+ *
+ * Unitree Go电机使用说明：
+ * 定义串口       （通信速率4Mbit/s，须在CubeMX中设置UART的时钟为 160MHz，如果使用其他时钟频率请确保波特率生成的误差小于 2%）
+ * 开启DMA_Rx     (提高传输成功率)
+ * 配置 RE DE引脚，并设置GPIO_OUTPUT_SPEED  Very High
+ * 该电机初始位置不确定需要进行  零点调整
+ *
+ * 代码说明（头文件Unitree_user.h）：
+ * 驱动电机只需要在Unitree_User.h  头文件中定义：
+ * 通信使用的串口
+ * RE 引脚        接收使能（低电平有效）
+ * DE 引脚        发送使能（高电平有效）
+ *
+ * 注意：
+ * 接线请使用可靠插件，保证信号线 接地信号纯净（杜邦线在高速串口传输下并不可靠！）
+ * Rx485线 需使用 差分数据线
+ * 请注意 Rx485_TTL模块 是否支持4Mbit/s 波特率
  */
 
 #include "Unitree_user.h"
@@ -58,11 +75,27 @@ HAL_StatusTypeDef Unitree_UART_tranANDrev(UnitreeMotor *MotorInstance, unsigned 
     MotorInstance->cmd.K_P = K_P;
     MotorInstance->cmd.K_W = K_W;
     return SERVO_Send_recv(&(MotorInstance->cmd),&(MotorInstance->data));
-//    if(SERVO_Send_recv(&MotorInstance->cmd,&MotorInstance->data) == 0 && MotorInstance->data.MError == 0)
-//        return HAL_OK;
-//    else
-//        return HAL_ERROR;
 }
+
+/**
+ * 编码器校正
+ * @param MotorInstance
+ * @return
+ */
+HAL_StatusTypeDef Unitree_Encoder_Autoclibrating(UnitreeMotor *MotorInstance)
+{
+    HAL_StatusTypeDef state_ = HAL_OK;
+    state_  = Unitree_UART_tranANDrev(MotorInstance,MotorInstance->cmd.id,2,0,0,0,0,0);
+    HAL_Delay(6000);
+    return state_;
+}
+
+HAL_StatusTypeDef Unitree_Force_Pos()
+{
+
+}
+
+
 
 
 

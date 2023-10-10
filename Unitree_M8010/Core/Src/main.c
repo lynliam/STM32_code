@@ -95,7 +95,8 @@ int main(void)
   /* USER CODE BEGIN 2 */
     RetargetInit(&huart8);
     Unitree_init(&Unitree_Motor[0]);
-    Unitree_UART_tranANDrev(Unitree_Motor,0,1,0,0,0,0.02,0.0);
+    //Unitree_UART_tranANDrev(Unitree_Motor,0,2,0,0,0,0,0.0);
+    //HAL_Delay(6000);
     uint8_t a = 0;
   /* USER CODE END 2 */
 
@@ -103,11 +104,12 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-      HAL_Delay(10);
       //printf("%lu\n",huart6.Instance->BRR);
-      Unitree_UART_tranANDrev(Unitree_Motor,0,1,0,0,3.14,0.1,0.0);
+      HAL_Delay(10);
+      //目前击球最佳参数：
+      Unitree_UART_tranANDrev(Unitree_Motor,0,1,0,0,0,0.5,0.01);
       //printf("%d\n",a);
-      printf("%f,%f,%f\n",Unitree_Motor[0].data.T,Unitree_Motor[0].data.W,Unitree_Motor[0].data.Pos);
+      printf("%.2f,%.2f,%.2f\n",Unitree_Motor[0].data.T,Unitree_Motor[0].data.W/6.33,Unitree_Motor[0].data.Pos/6.33);
 
     /* USER CODE END WHILE */
 

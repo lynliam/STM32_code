@@ -4,6 +4,8 @@
 #include <stdint.h>
 #include "main.h" // stm32 hal
 #include "ris_protocol.h"
+#include "usart.h"
+
 
 #pragma pack(1)                  //将结构体内变量强制1字节对齐
 
@@ -75,18 +77,6 @@ typedef struct
 		float footForce;												// 足端气压传感器数据 12bit (0-4095)
 
 } MOTOR_recv;
-
-#define RS485_DE_GPIO_Port           GPIOF
-#define RS485_DE_Pin                 GPIO_PIN_0
-
-#define RS485_RE_GPIO_Port           GPIOF
-#define RS485_RE_Pin                 GPIO_PIN_1
-
-#define SET_485_DE_UP()              HAL_GPIO_WritePin(RS485_DE_GPIO_Port, RS485_DE_Pin, GPIO_PIN_SET)
-#define SET_485_DE_DOWN()            HAL_GPIO_WritePin(RS485_DE_GPIO_Port, RS485_DE_Pin, GPIO_PIN_RESET)
-
-#define SET_485_RE_UP()              HAL_GPIO_WritePin(RS485_RE_GPIO_Port, RS485_RE_Pin, GPIO_PIN_SET)
-#define SET_485_RE_DOWN()            HAL_GPIO_WritePin(RS485_RE_GPIO_Port, RS485_RE_Pin, GPIO_PIN_RESET)
 
 uint32_t crc32_core(uint32_t *ptr, uint32_t len);
 int modify_data(MOTOR_send *motor_s);

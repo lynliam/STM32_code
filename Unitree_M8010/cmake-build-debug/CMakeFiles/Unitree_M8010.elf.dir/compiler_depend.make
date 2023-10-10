@@ -941,7 +941,14 @@ CMakeFiles/Unitree_M8010.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_
   E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.obj: E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/GO-M8010-6.c \
-  E:/SingleChips/bsp/Unitree_M8010/Core/Inc/usart.h \
+  E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/motor_control.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
   E:/SingleChips/bsp/Unitree_M8010/Core/Inc/main.h \
   E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
   E:/SingleChips/bsp/Unitree_M8010/Core/Inc/stm32f4xx_hal_conf.h \
@@ -950,13 +957,6 @@ CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.obj: E:/SingleChi
   E:/SingleChips/bsp/Unitree_M8010/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
   E:/SingleChips/bsp/Unitree_M8010/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h \
   E:/SingleChips/bsp/Unitree_M8010/Drivers/CMSIS/Include/core_cm4.h \
-  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
   E:/SingleChips/bsp/Unitree_M8010/Drivers/CMSIS/Include/cmsis_version.h \
   E:/SingleChips/bsp/Unitree_M8010/Drivers/CMSIS/Include/cmsis_compiler.h \
   E:/SingleChips/bsp/Unitree_M8010/Drivers/CMSIS/Include/cmsis_gcc.h \
@@ -977,10 +977,11 @@ CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.obj: E:/SingleChi
   E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
-  E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/motor_control.h \
-  E:/SingleChips/bsp/Unitree_M8010/Core/Inc/main.h \
   E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/ris_protocol.h \
-  E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/crc_ccitt.h
+  E:/SingleChips/bsp/Unitree_M8010/Core/Inc/usart.h \
+  E:/SingleChips/bsp/Unitree_M8010/Core/Inc/main.h \
+  E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/crc_ccitt.h \
+  E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/Unitree_user.h
 
 CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.obj: E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/Unitree_user.c \
   E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/Unitree_user.h \
@@ -1020,7 +1021,9 @@ CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.obj: E:/SingleC
   E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   E:/SingleChips/bsp/Unitree_M8010/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
-  E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/ris_protocol.h
+  E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/ris_protocol.h \
+  E:/SingleChips/bsp/Unitree_M8010/Core/Inc/usart.h \
+  E:/SingleChips/bsp/Unitree_M8010/Core/Inc/main.h
 
 CMakeFiles/Unitree_M8010.elf.dir/User/retarget/retarget.c.obj: E:/SingleChips/bsp/Unitree_M8010/User/retarget/retarget.c \
   F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \

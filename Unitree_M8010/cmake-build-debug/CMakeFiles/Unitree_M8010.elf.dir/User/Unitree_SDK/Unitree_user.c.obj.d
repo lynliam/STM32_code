@@ -37,4 +37,6 @@ CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.obj: \
  E:\SingleChips\bsp\Unitree_M8010\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
  E:\SingleChips\bsp\Unitree_M8010\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
  E:\SingleChips\bsp\Unitree_M8010\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
- E:\SingleChips\bsp\Unitree_M8010\User\Unitree_SDK\ris_protocol.h
+ E:\SingleChips\bsp\Unitree_M8010\User\Unitree_SDK\ris_protocol.h \
+ E:\SingleChips\bsp\Unitree_M8010\Core\Inc/usart.h \
+ E:\SingleChips\bsp\Unitree_M8010\Core\Inc/main.h

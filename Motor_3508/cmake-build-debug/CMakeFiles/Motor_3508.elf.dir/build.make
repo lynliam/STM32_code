@@ -180,9 +180,23 @@ CMakeFiles/Motor_3508.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Motor_3508.elf.dir/Core/Src/system_stm32f4xx.c.s"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\SingleChips\bsp\Motor_3508\Core\Src\system_stm32f4xx.c -o CMakeFiles\Motor_3508.elf.dir\Core\Src\system_stm32f4xx.c.s
 
+CMakeFiles/Motor_3508.elf.dir/Core/Src/usart.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
+CMakeFiles/Motor_3508.elf.dir/Core/Src/usart.c.obj: E:/SingleChips/bsp/Motor_3508/Core/Src/usart.c
+CMakeFiles/Motor_3508.elf.dir/Core/Src/usart.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Motor_3508.elf.dir/Core/Src/usart.c.obj"
+	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\Motor_3508.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\Core\Src\usart.c.obj -c E:\SingleChips\bsp\Motor_3508\Core\Src\usart.c
+
+CMakeFiles/Motor_3508.elf.dir/Core/Src/usart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Motor_3508.elf.dir/Core/Src/usart.c.i"
+	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\SingleChips\bsp\Motor_3508\Core\Src\usart.c > CMakeFiles\Motor_3508.elf.dir\Core\Src\usart.c.i
+
+CMakeFiles/Motor_3508.elf.dir/Core/Src/usart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Motor_3508.elf.dir/Core/Src/usart.c.s"
+	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\SingleChips\bsp\Motor_3508\Core\Src\usart.c -o CMakeFiles\Motor_3508.elf.dir\Core\Src\usart.c.s
+
 CMakeFiles/Motor_3508.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
 CMakeFiles/Motor_3508.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj: E:/SingleChips/bsp/Motor_3508/Core/Startup/startup_stm32f427iihx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object CMakeFiles/Motor_3508.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/Motor_3508.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Motor_3508.elf.dir\Core\Startup\startup_stm32f427iihx.s.obj -c E:\SingleChips\bsp\Motor_3508\Core\Startup\startup_stm32f427iihx.s
 
 CMakeFiles/Motor_3508.elf.dir/Core/Startup/startup_stm32f427iihx.s.i: cmake_force
@@ -196,7 +210,7 @@ CMakeFiles/Motor_3508.elf.dir/Core/Startup/startup_stm32f427iihx.s.s: cmake_forc
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -210,7 +224,7 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj -MF CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj -c E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i: cmake_force
@@ -224,7 +238,7 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -238,7 +252,7 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cor
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -252,7 +266,7 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -266,7 +280,7 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -280,7 +294,7 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ext
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -294,7 +308,7 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fla
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -308,7 +322,7 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fla
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -322,7 +336,7 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fla
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -336,7 +350,7 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpi
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -350,7 +364,7 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -364,7 +378,7 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -378,7 +392,7 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -392,7 +406,7 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -406,7 +420,7 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -417,10 +431,24 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
 
+CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
+CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj -MF CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
+
+CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i"
+	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c > CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.i
+
+CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
+	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\Motor_3508.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
+
 CMakeFiles/Motor_3508.elf.dir/User/UC/Caculate.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
 CMakeFiles/Motor_3508.elf.dir/User/UC/Caculate.c.obj: E:/SingleChips/bsp/Motor_3508/User/UC/Caculate.c
 CMakeFiles/Motor_3508.elf.dir/User/UC/Caculate.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Motor_3508.elf.dir/User/UC/Caculate.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Motor_3508.elf.dir/User/UC/Caculate.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/User/UC/Caculate.c.obj -MF CMakeFiles\Motor_3508.elf.dir\User\UC\Caculate.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\User\UC\Caculate.c.obj -c E:\SingleChips\bsp\Motor_3508\User\UC\Caculate.c
 
 CMakeFiles/Motor_3508.elf.dir/User/UC/Caculate.c.i: cmake_force
@@ -434,7 +462,7 @@ CMakeFiles/Motor_3508.elf.dir/User/UC/Caculate.c.s: cmake_force
 CMakeFiles/Motor_3508.elf.dir/User/UC/DJI.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
 CMakeFiles/Motor_3508.elf.dir/User/UC/DJI.c.obj: E:/SingleChips/bsp/Motor_3508/User/UC/DJI.c
 CMakeFiles/Motor_3508.elf.dir/User/UC/DJI.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Motor_3508.elf.dir/User/UC/DJI.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Motor_3508.elf.dir/User/UC/DJI.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/User/UC/DJI.c.obj -MF CMakeFiles\Motor_3508.elf.dir\User\UC\DJI.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\User\UC\DJI.c.obj -c E:\SingleChips\bsp\Motor_3508\User\UC\DJI.c
 
 CMakeFiles/Motor_3508.elf.dir/User/UC/DJI.c.i: cmake_force
@@ -448,7 +476,7 @@ CMakeFiles/Motor_3508.elf.dir/User/UC/DJI.c.s: cmake_force
 CMakeFiles/Motor_3508.elf.dir/User/UC/wtr_can.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
 CMakeFiles/Motor_3508.elf.dir/User/UC/wtr_can.c.obj: E:/SingleChips/bsp/Motor_3508/User/UC/wtr_can.c
 CMakeFiles/Motor_3508.elf.dir/User/UC/wtr_can.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Motor_3508.elf.dir/User/UC/wtr_can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Motor_3508.elf.dir/User/UC/wtr_can.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/User/UC/wtr_can.c.obj -MF CMakeFiles\Motor_3508.elf.dir\User\UC\wtr_can.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\User\UC\wtr_can.c.obj -c E:\SingleChips\bsp\Motor_3508\User\UC\wtr_can.c
 
 CMakeFiles/Motor_3508.elf.dir/User/UC/wtr_can.c.i: cmake_force
@@ -462,7 +490,7 @@ CMakeFiles/Motor_3508.elf.dir/User/UC/wtr_can.c.s: cmake_force
 CMakeFiles/Motor_3508.elf.dir/User/bsp_LED.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
 CMakeFiles/Motor_3508.elf.dir/User/bsp_LED.c.obj: E:/SingleChips/bsp/Motor_3508/User/bsp_LED.c
 CMakeFiles/Motor_3508.elf.dir/User/bsp_LED.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Motor_3508.elf.dir/User/bsp_LED.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Motor_3508.elf.dir/User/bsp_LED.c.obj"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/User/bsp_LED.c.obj -MF CMakeFiles\Motor_3508.elf.dir\User\bsp_LED.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\User\bsp_LED.c.obj -c E:\SingleChips\bsp\Motor_3508\User\bsp_LED.c
 
 CMakeFiles/Motor_3508.elf.dir/User/bsp_LED.c.i: cmake_force
@@ -472,6 +500,20 @@ CMakeFiles/Motor_3508.elf.dir/User/bsp_LED.c.i: cmake_force
 CMakeFiles/Motor_3508.elf.dir/User/bsp_LED.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Motor_3508.elf.dir/User/bsp_LED.c.s"
 	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\SingleChips\bsp\Motor_3508\User\bsp_LED.c -o CMakeFiles\Motor_3508.elf.dir\User\bsp_LED.c.s
+
+CMakeFiles/Motor_3508.elf.dir/User/retarget/retarget.c.obj: CMakeFiles/Motor_3508.elf.dir/flags.make
+CMakeFiles/Motor_3508.elf.dir/User/retarget/retarget.c.obj: E:/SingleChips/bsp/Motor_3508/User/retarget/retarget.c
+CMakeFiles/Motor_3508.elf.dir/User/retarget/retarget.c.obj: CMakeFiles/Motor_3508.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Motor_3508.elf.dir/User/retarget/retarget.c.obj"
+	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Motor_3508.elf.dir/User/retarget/retarget.c.obj -MF CMakeFiles\Motor_3508.elf.dir\User\retarget\retarget.c.obj.d -o CMakeFiles\Motor_3508.elf.dir\User\retarget\retarget.c.obj -c E:\SingleChips\bsp\Motor_3508\User\retarget\retarget.c
+
+CMakeFiles/Motor_3508.elf.dir/User/retarget/retarget.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Motor_3508.elf.dir/User/retarget/retarget.c.i"
+	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\SingleChips\bsp\Motor_3508\User\retarget\retarget.c > CMakeFiles\Motor_3508.elf.dir\User\retarget\retarget.c.i
+
+CMakeFiles/Motor_3508.elf.dir/User/retarget/retarget.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Motor_3508.elf.dir/User/retarget/retarget.c.s"
+	"F:\Environment\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\SingleChips\bsp\Motor_3508\User\retarget\retarget.c -o CMakeFiles\Motor_3508.elf.dir\User\retarget\retarget.c.s
 
 # Object files for target Motor_3508.elf
 Motor_3508_elf_OBJECTS = \
@@ -483,6 +525,7 @@ Motor_3508_elf_OBJECTS = \
 "CMakeFiles/Motor_3508.elf.dir/Core/Src/syscalls.c.obj" \
 "CMakeFiles/Motor_3508.elf.dir/Core/Src/sysmem.c.obj" \
 "CMakeFiles/Motor_3508.elf.dir/Core/Src/system_stm32f4xx.c.obj" \
+"CMakeFiles/Motor_3508.elf.dir/Core/Src/usart.c.obj" \
 "CMakeFiles/Motor_3508.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj" \
 "CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" \
 "CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj" \
@@ -500,10 +543,12 @@ Motor_3508_elf_OBJECTS = \
 "CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" \
 "CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" \
 "CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
+"CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" \
 "CMakeFiles/Motor_3508.elf.dir/User/UC/Caculate.c.obj" \
 "CMakeFiles/Motor_3508.elf.dir/User/UC/DJI.c.obj" \
 "CMakeFiles/Motor_3508.elf.dir/User/UC/wtr_can.c.obj" \
-"CMakeFiles/Motor_3508.elf.dir/User/bsp_LED.c.obj"
+"CMakeFiles/Motor_3508.elf.dir/User/bsp_LED.c.obj" \
+"CMakeFiles/Motor_3508.elf.dir/User/retarget/retarget.c.obj"
 
 # External object files for target Motor_3508.elf
 Motor_3508_elf_EXTERNAL_OBJECTS =
@@ -516,6 +561,7 @@ Motor_3508.elf: CMakeFiles/Motor_3508.elf.dir/Core/Src/stm32f4xx_it.c.obj
 Motor_3508.elf: CMakeFiles/Motor_3508.elf.dir/Core/Src/syscalls.c.obj
 Motor_3508.elf: CMakeFiles/Motor_3508.elf.dir/Core/Src/sysmem.c.obj
 Motor_3508.elf: CMakeFiles/Motor_3508.elf.dir/Core/Src/system_stm32f4xx.c.obj
+Motor_3508.elf: CMakeFiles/Motor_3508.elf.dir/Core/Src/usart.c.obj
 Motor_3508.elf: CMakeFiles/Motor_3508.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj
 Motor_3508.elf: CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 Motor_3508.elf: CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj
@@ -533,13 +579,15 @@ Motor_3508.elf: CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/s
 Motor_3508.elf: CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
 Motor_3508.elf: CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 Motor_3508.elf: CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+Motor_3508.elf: CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 Motor_3508.elf: CMakeFiles/Motor_3508.elf.dir/User/UC/Caculate.c.obj
 Motor_3508.elf: CMakeFiles/Motor_3508.elf.dir/User/UC/DJI.c.obj
 Motor_3508.elf: CMakeFiles/Motor_3508.elf.dir/User/UC/wtr_can.c.obj
 Motor_3508.elf: CMakeFiles/Motor_3508.elf.dir/User/bsp_LED.c.obj
+Motor_3508.elf: CMakeFiles/Motor_3508.elf.dir/User/retarget/retarget.c.obj
 Motor_3508.elf: CMakeFiles/Motor_3508.elf.dir/build.make
 Motor_3508.elf: CMakeFiles/Motor_3508.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking C executable Motor_3508.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\SingleChips\bsp\Motor_3508\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking C executable Motor_3508.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Motor_3508.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Motor_3508.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/SingleChips/bsp/Motor_3508/cmake-build-debug/Motor_3508.bin"

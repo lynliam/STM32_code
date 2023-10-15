@@ -19,6 +19,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "can.h"
+#include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -27,6 +28,7 @@
 #include "DJI.h"
 #include "Caculate.h"
 #include "wtr_can.h"
+#include "retarget/retarget.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -58,7 +60,9 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+uint8_t RxBuffer[6] = {0};
+float motor_1 = 0.0;
+float motor_2 = 0.0;
 /* USER CODE END 0 */
 
 /**
@@ -90,14 +94,21 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_CAN1_Init();
+  MX_UART8_Init();
   /* USER CODE BEGIN 2 */
+    RetargetInit(&huart8);
     LED_GPIOG_Init();
     HAL_GPIO_WritePin(GPIOG,GPIO_PIN_1,GPIO_PIN_RESET);
     HAL_GPIO_WritePin(GPIOG,GPIO_PIN_2,GPIO_PIN_RESET);
     CANFilterInit(&hcan1);
     hDJI[0].motorType = M3508;
+    hDJI[1].motorType = M3508;
+    hDJI[2].motorType = M2006;
+
     DJI_Init();
-    speedServo(100,&hDJI[0]);
+
+
+    HAL_UARTEx_ReceiveToIdle_IT(&huart8,RxBuffer,6);
 
   /* USER CODE END 2 */
 
@@ -105,7 +116,12 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-      CanTransmit_DJI_5678(&hcan1,0,hDJI[0].speedPID.output,0,0);
+      positionServo(motor_1,&hDJI[0]);
+      positionServo(motor_1,&hDJI[1]);
+      positionServo(motor_2,&hDJI[2]);
+      CanTransmit_DJI_1234(&hcan1,hDJI[0].speedPID.output,hDJI[1].speedPID.output,hDJI[2].speedPID.output,0);
+      //printf("%f,%f\n",hDJI[0].AxisData.AxisAngle_inDegree,hDJI[0].AxisData.AxisVelocity);
+      printf("%f\n",motor_1);
       HAL_Delay(2);
     /* USER CODE END WHILE */
 
@@ -167,6 +183,30 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
+
+void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
+{
+    if(huart->Instance == UART8)
+    {
+        HAL_UART_Transmit(&huart8,RxBuffer,6,0xf);
+        if(RxBuffer[0] == 0x31 && RxBuffer[1] == 0x3A)
+        {
+            motor_1 = (RxBuffer[3]==0x0A)? (float )(RxBuffer[2]-48) : (float )(((RxBuffer[2]-48)*10)+(RxBuffer[3]-48)) ;
+            motor_1 = (RxBuffer[5] == 0x0A) ? (float )((((RxBuffer[2]-48)*10)+(RxBuffer[3]-48))*10+(RxBuffer[4]-48)) : motor_1;
+//motor_1 = (RxBuffer[7] == 0x0A) ? (float )(((((RxBuffer[2]-48)*10)+(RxBuffer[3]-48))*10+(RxBuffer[4]-48))*10+RxBuffer[5]-48) : motor_1;
+
+            if(motor_1>990)
+                motor_1 = 990;
+            if(motor_1<0)
+                motor_1 = 0;
+        }
+        else if(RxBuffer[0] == 0x32 && RxBuffer[1] == 0x3A)
+        {
+            motor_2 = (RxBuffer[3]==0x0A)? (float )(RxBuffer[2]-48) : (float )(((RxBuffer[2]-48)*10)+(RxBuffer[3]-48)) ;
+        }
+        HAL_UARTEx_ReceiveToIdle_IT(&huart8,RxBuffer,6);
+    }
+}
 
 /* USER CODE END 4 */
 

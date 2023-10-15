@@ -21,32 +21,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="471dbb30-b69b-4315-b3b9-e31d7396fd49" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/OCD_Unitree_M8010.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/OCD_Unitree_M8010.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/Unitree_SDK/GO-M8010-6.c" beforeDir="false" afterPath="$PROJECT_DIR$/User/Unitree_SDK/GO-M8010-6.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/Unitree_SDK/Unitree_user.c" beforeDir="false" afterPath="$PROJECT_DIR$/User/Unitree_SDK/Unitree_user.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/Unitree_SDK/Unitree_user.h" beforeDir="false" afterPath="$PROJECT_DIR$/User/Unitree_SDK/Unitree_user.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User/Unitree_SDK/motor_control.h" beforeDir="false" afterPath="$PROJECT_DIR$/User/Unitree_SDK/motor_control.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-5579079a9d2542379cd9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-8942bf478b5c54242627.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-10-09T12-26-55-0542.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Unitree_M8010.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Unitree_M8010.elf.dir/Core/Src/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/GO-M8010-6.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Unitree_M8010.elf.dir/User/Unitree_SDK/Unitree_user.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Unitree_M8010.elf.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Unitree_M8010.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Unitree_M8010.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Unitree_M8010.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Unitree_M8010.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Unitree_M8010.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Unitree_M8010.elf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Unitree_M8010.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Unitree_M8010.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Unitree_M8010.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Unitree_M8010.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+=======
+>>>>>>> 23c033ee4ae4138d84e5a15d9bd58137019c1e42
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,15 +81,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD Unitree_M8010">
-    <configuration name="Unitree_M8010.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Unitree_M8010" TARGET_NAME="Unitree_M8010.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Unitree_M8010" RUN_TARGET_NAME="Unitree_M8010.elf">
+  <component name="RunManager" selected="OpenOCD 下载并运行.OCD Unitree_M8010">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unitree_M8010.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Unitree_M8010" TARGET_NAME="Unitree_M8010.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Unitree_M8010" RUN_TARGET_NAME="Unitree_M8010.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.Unitree_M8010.elf" />
-      <item itemvalue="OpenOCD Download &amp; Run.OCD Unitree_M8010" />
+      <item itemvalue="CMake 应用程序.Unitree_M8010.elf" />
+      <item itemvalue="OpenOCD 下载并运行.OCD Unitree_M8010" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -126,6 +120,13 @@
       <workItem from="1696925281964" duration="5450000" />
       <workItem from="1696932105990" duration="5349000" />
       <workItem from="1696937523437" duration="32000" />
+<<<<<<< HEAD
+      <workItem from="1697194572976" duration="1754000" />
+=======
+      <workItem from="1696946769301" duration="1026000" />
+      <workItem from="1697039036956" duration="331000" />
+      <workItem from="1697301173355" duration="5000" />
+>>>>>>> 23c033ee4ae4138d84e5a15d9bd58137019c1e42
     </task>
     <servers />
   </component>

@@ -26,8 +26,9 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
   "E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
   "E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include"
-  "E:/SingleChips/bsp/Motor_3508/User"
+  "E:/SingleChips/bsp/Motor_3508/User/retarget"
   "E:/SingleChips/bsp/Motor_3508/User/UC"
+  "E:/SingleChips/bsp/Motor_3508/User"
   )
 
 # The set of dependency files which are needed:
@@ -40,6 +41,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/SingleChips/bsp/Motor_3508/Core/Src/syscalls.c" "CMakeFiles/Motor_3508.elf.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/Motor_3508.elf.dir/Core/Src/syscalls.c.obj.d"
   "E:/SingleChips/bsp/Motor_3508/Core/Src/sysmem.c" "CMakeFiles/Motor_3508.elf.dir/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/Motor_3508.elf.dir/Core/Src/sysmem.c.obj.d"
   "E:/SingleChips/bsp/Motor_3508/Core/Src/system_stm32f4xx.c" "CMakeFiles/Motor_3508.elf.dir/Core/Src/system_stm32f4xx.c.obj" "gcc" "CMakeFiles/Motor_3508.elf.dir/Core/Src/system_stm32f4xx.c.obj.d"
+  "E:/SingleChips/bsp/Motor_3508/Core/Src/usart.c" "CMakeFiles/Motor_3508.elf.dir/Core/Src/usart.c.obj" "gcc" "CMakeFiles/Motor_3508.elf.dir/Core/Src/usart.c.obj.d"
   "E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" "CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" "gcc" "CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj.d"
   "E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c" "CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj" "gcc" "CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj.d"
   "E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" "CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" "gcc" "CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj.d"
@@ -56,10 +58,12 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" "CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" "gcc" "CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj.d"
   "E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" "CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" "gcc" "CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj.d"
   "E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" "CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" "gcc" "CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj.d"
+  "E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" "CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" "gcc" "CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj.d"
   "E:/SingleChips/bsp/Motor_3508/User/UC/Caculate.c" "CMakeFiles/Motor_3508.elf.dir/User/UC/Caculate.c.obj" "gcc" "CMakeFiles/Motor_3508.elf.dir/User/UC/Caculate.c.obj.d"
   "E:/SingleChips/bsp/Motor_3508/User/UC/DJI.c" "CMakeFiles/Motor_3508.elf.dir/User/UC/DJI.c.obj" "gcc" "CMakeFiles/Motor_3508.elf.dir/User/UC/DJI.c.obj.d"
   "E:/SingleChips/bsp/Motor_3508/User/UC/wtr_can.c" "CMakeFiles/Motor_3508.elf.dir/User/UC/wtr_can.c.obj" "gcc" "CMakeFiles/Motor_3508.elf.dir/User/UC/wtr_can.c.obj.d"
   "E:/SingleChips/bsp/Motor_3508/User/bsp_LED.c" "CMakeFiles/Motor_3508.elf.dir/User/bsp_LED.c.obj" "gcc" "CMakeFiles/Motor_3508.elf.dir/User/bsp_LED.c.obj.d"
+  "E:/SingleChips/bsp/Motor_3508/User/retarget/retarget.c" "CMakeFiles/Motor_3508.elf.dir/User/retarget/retarget.c.obj" "gcc" "CMakeFiles/Motor_3508.elf.dir/User/retarget/retarget.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

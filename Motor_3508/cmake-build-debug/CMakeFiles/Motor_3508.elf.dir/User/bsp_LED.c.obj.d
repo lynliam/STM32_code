@@ -34,4 +34,5 @@ CMakeFiles/Motor_3508.elf.dir/User/bsp_LED.c.obj: \
  E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ex.h \
  E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \
  E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
- E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h
+ E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
+ E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h

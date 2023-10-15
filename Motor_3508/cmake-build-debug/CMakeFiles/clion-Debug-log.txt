@@ -1,5 +1,5 @@
 "F:\Program Files\IDE\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=F:/Environment/MinGW/mingw64/bin/mingw32-make.exe "-DCMAKE_C_COMPILER=F:/Environment/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" "-DCMAKE_CXX_COMPILER=F:/Environment/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-g++.exe" -G "CodeBlocks - MinGW Makefiles" -S E:\SingleChips\bsp\Motor_3508 -B E:\SingleChips\bsp\Motor_3508\cmake-build-debug
 -- Minimal optimization, debug info included
--- Configuring done (0.1s)
+-- Configuring done (0.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: E:/SingleChips/bsp/Motor_3508/cmake-build-debug

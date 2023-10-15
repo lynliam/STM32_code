@@ -32,8 +32,9 @@
 					<Add directory="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include"/>
-					<Add directory="E:/SingleChips/bsp/Motor_3508/User"/>
+					<Add directory="E:/SingleChips/bsp/Motor_3508/User/retarget"/>
 					<Add directory="E:/SingleChips/bsp/Motor_3508/User/UC"/>
+					<Add directory="E:/SingleChips/bsp/Motor_3508/User"/>
 					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -63,8 +64,9 @@
 					<Add directory="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include"/>
-					<Add directory="E:/SingleChips/bsp/Motor_3508/User"/>
+					<Add directory="E:/SingleChips/bsp/Motor_3508/User/retarget"/>
 					<Add directory="E:/SingleChips/bsp/Motor_3508/User/UC"/>
+					<Add directory="E:/SingleChips/bsp/Motor_3508/User"/>
 					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="f:\environment\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -115,6 +117,9 @@
 		<Unit filename="E:/SingleChips/bsp/Motor_3508/Core/Inc/stm32f4xx_it.h">
 			<Option target="Motor_3508.elf"/>
 		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Core/Inc/usart.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
 		<Unit filename="E:/SingleChips/bsp/Motor_3508/Core/Src/can.c">
 			<Option target="Motor_3508.elf"/>
 		</Unit>
@@ -137,6 +142,9 @@
 			<Option target="Motor_3508.elf"/>
 		</Unit>
 		<Unit filename="E:/SingleChips/bsp/Motor_3508/Core/Src/system_stm32f4xx.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Core/Src/usart.c">
 			<Option target="Motor_3508.elf"/>
 		</Unit>
 		<Unit filename="E:/SingleChips/bsp/Motor_3508/Core/Startup/startup_stm32f427iihx.s">
@@ -277,6 +285,9 @@
 		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
 			<Option target="Motor_3508.elf"/>
 		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
 		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
 			<Option target="Motor_3508.elf"/>
 		</Unit>
@@ -299,6 +310,9 @@
 			<Option target="Motor_3508.elf"/>
 		</Unit>
 		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
 			<Option target="Motor_3508.elf"/>
 		</Unit>
 		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
@@ -355,6 +369,9 @@
 		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
 			<Option target="Motor_3508.elf"/>
 		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
 		<Unit filename="E:/SingleChips/bsp/Motor_3508/STM32F427IIHX_FLASH.ld">
 			<Option target="Motor_3508.elf"/>
 		</Unit>
@@ -380,6 +397,12 @@
 			<Option target="Motor_3508.elf"/>
 		</Unit>
 		<Unit filename="E:/SingleChips/bsp/Motor_3508/User/bsp_LED.h">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/User/retarget/retarget.c">
+			<Option target="Motor_3508.elf"/>
+		</Unit>
+		<Unit filename="E:/SingleChips/bsp/Motor_3508/User/retarget/retarget.h">
 			<Option target="Motor_3508.elf"/>
 		</Unit>
 		<Unit filename="E:/SingleChips/bsp/Motor_3508/CMakeLists.txt">

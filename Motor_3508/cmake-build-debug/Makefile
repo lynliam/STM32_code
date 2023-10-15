@@ -320,6 +320,30 @@ Core/Src/system_stm32f4xx.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Motor_3508.elf.dir\build.make CMakeFiles/Motor_3508.elf.dir/Core/Src/system_stm32f4xx.c.s
 .PHONY : Core/Src/system_stm32f4xx.c.s
 
+Core/Src/usart.obj: Core/Src/usart.c.obj
+.PHONY : Core/Src/usart.obj
+
+# target to build an object file
+Core/Src/usart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Motor_3508.elf.dir\build.make CMakeFiles/Motor_3508.elf.dir/Core/Src/usart.c.obj
+.PHONY : Core/Src/usart.c.obj
+
+Core/Src/usart.i: Core/Src/usart.c.i
+.PHONY : Core/Src/usart.i
+
+# target to preprocess a source file
+Core/Src/usart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Motor_3508.elf.dir\build.make CMakeFiles/Motor_3508.elf.dir/Core/Src/usart.c.i
+.PHONY : Core/Src/usart.c.i
+
+Core/Src/usart.s: Core/Src/usart.c.s
+.PHONY : Core/Src/usart.s
+
+# target to generate assembly for a file
+Core/Src/usart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Motor_3508.elf.dir\build.make CMakeFiles/Motor_3508.elf.dir/Core/Src/usart.c.s
+.PHONY : Core/Src/usart.c.s
+
 Core/Startup/startup_stm32f427iihx.obj: Core/Startup/startup_stm32f427iihx.s.obj
 .PHONY : Core/Startup/startup_stm32f427iihx.obj
 
@@ -712,6 +736,30 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Motor_3508.elf.dir\build.make CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
 
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Motor_3508.elf.dir\build.make CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Motor_3508.elf.dir\build.make CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Motor_3508.elf.dir\build.make CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
+
 User/UC/Caculate.obj: User/UC/Caculate.c.obj
 .PHONY : User/UC/Caculate.obj
 
@@ -808,6 +856,30 @@ User/bsp_LED.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Motor_3508.elf.dir\build.make CMakeFiles/Motor_3508.elf.dir/User/bsp_LED.c.s
 .PHONY : User/bsp_LED.c.s
 
+User/retarget/retarget.obj: User/retarget/retarget.c.obj
+.PHONY : User/retarget/retarget.obj
+
+# target to build an object file
+User/retarget/retarget.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Motor_3508.elf.dir\build.make CMakeFiles/Motor_3508.elf.dir/User/retarget/retarget.c.obj
+.PHONY : User/retarget/retarget.c.obj
+
+User/retarget/retarget.i: User/retarget/retarget.c.i
+.PHONY : User/retarget/retarget.i
+
+# target to preprocess a source file
+User/retarget/retarget.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Motor_3508.elf.dir\build.make CMakeFiles/Motor_3508.elf.dir/User/retarget/retarget.c.i
+.PHONY : User/retarget/retarget.c.i
+
+User/retarget/retarget.s: User/retarget/retarget.c.s
+.PHONY : User/retarget/retarget.s
+
+# target to generate assembly for a file
+User/retarget/retarget.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Motor_3508.elf.dir\build.make CMakeFiles/Motor_3508.elf.dir/User/retarget/retarget.c.s
+.PHONY : User/retarget/retarget.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -841,6 +913,9 @@ help:
 	@echo ... Core/Src/system_stm32f4xx.obj
 	@echo ... Core/Src/system_stm32f4xx.i
 	@echo ... Core/Src/system_stm32f4xx.s
+	@echo ... Core/Src/usart.obj
+	@echo ... Core/Src/usart.i
+	@echo ... Core/Src/usart.s
 	@echo ... Core/Startup/startup_stm32f427iihx.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i
@@ -890,6 +965,9 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s
 	@echo ... User/UC/Caculate.obj
 	@echo ... User/UC/Caculate.i
 	@echo ... User/UC/Caculate.s
@@ -902,6 +980,9 @@ help:
 	@echo ... User/bsp_LED.obj
 	@echo ... User/bsp_LED.i
 	@echo ... User/bsp_LED.s
+	@echo ... User/retarget/retarget.obj
+	@echo ... User/retarget/retarget.i
+	@echo ... User/retarget/retarget.s
 .PHONY : help
 
 

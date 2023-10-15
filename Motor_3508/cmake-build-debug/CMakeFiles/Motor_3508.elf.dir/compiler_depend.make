@@ -37,7 +37,8 @@ CMakeFiles/Motor_3508.elf.dir/Core/Src/can.c.obj: E:/SingleChips/bsp/Motor_3508/
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/Core/Src/gpio.c.obj: E:/SingleChips/bsp/Motor_3508/Core/Src/gpio.c \
   E:/SingleChips/bsp/Motor_3508/Core/Inc/gpio.h \
@@ -75,7 +76,8 @@ CMakeFiles/Motor_3508.elf.dir/Core/Src/gpio.c.obj: E:/SingleChips/bsp/Motor_3508
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/Core/Src/main.c.obj: E:/SingleChips/bsp/Motor_3508/Core/Src/main.c \
   E:/SingleChips/bsp/Motor_3508/Core/Inc/main.h \
@@ -113,14 +115,45 @@ CMakeFiles/Motor_3508.elf.dir/Core/Src/main.c.obj: E:/SingleChips/bsp/Motor_3508
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   E:/SingleChips/bsp/Motor_3508/Core/Inc/can.h \
   E:/SingleChips/bsp/Motor_3508/Core/Inc/main.h \
+  E:/SingleChips/bsp/Motor_3508/Core/Inc/usart.h \
   E:/SingleChips/bsp/Motor_3508/Core/Inc/gpio.h \
   E:/SingleChips/bsp/Motor_3508/User/bsp_LED.h \
   E:/SingleChips/bsp/Motor_3508/User/UC/DJI.h \
   E:/SingleChips/bsp/Motor_3508/User/UC/Caculate.h \
   E:/SingleChips/bsp/Motor_3508/User/UC/DJI.h \
-  E:/SingleChips/bsp/Motor_3508/User/UC/wtr_can.h
+  E:/SingleChips/bsp/Motor_3508/User/UC/wtr_can.h \
+  E:/SingleChips/bsp/Motor_3508/User/retarget/retarget.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/stat.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/time.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/time.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/types.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/endian.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_endian.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/select.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_sigset.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_timeval.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/timespec.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_timespec.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/sched.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/types.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdio.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/stdio.h
 
 CMakeFiles/Motor_3508.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: E:/SingleChips/bsp/Motor_3508/Core/Src/stm32f4xx_hal_msp.c \
   E:/SingleChips/bsp/Motor_3508/Core/Inc/main.h \
@@ -157,7 +190,8 @@ CMakeFiles/Motor_3508.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: E:/SingleChips/b
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/Core/Src/stm32f4xx_it.c.obj: E:/SingleChips/bsp/Motor_3508/Core/Src/stm32f4xx_it.c \
   E:/SingleChips/bsp/Motor_3508/Core/Inc/main.h \
@@ -195,6 +229,7 @@ CMakeFiles/Motor_3508.elf.dir/Core/Src/stm32f4xx_it.c.obj: E:/SingleChips/bsp/Mo
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   E:/SingleChips/bsp/Motor_3508/Core/Inc/stm32f4xx_it.h
 
 CMakeFiles/Motor_3508.elf.dir/Core/Src/syscalls.c.obj: E:/SingleChips/bsp/Motor_3508/Core/Src/syscalls.c \
@@ -296,7 +331,47 @@ CMakeFiles/Motor_3508.elf.dir/Core/Src/system_stm32f4xx.c.obj: E:/SingleChips/bs
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+
+CMakeFiles/Motor_3508.elf.dir/Core/Src/usart.c.obj: E:/SingleChips/bsp/Motor_3508/Core/Src/usart.c \
+  E:/SingleChips/bsp/Motor_3508/Core/Inc/usart.h \
+  E:/SingleChips/bsp/Motor_3508/Core/Inc/main.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  E:/SingleChips/bsp/Motor_3508/Core/Inc/stm32f4xx_hal_conf.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/core_cm4.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/cmsis_version.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/cmsis_compiler.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/cmsis_gcc.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/mpu_armv7.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -332,7 +407,8 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.o
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -368,7 +444,8 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -404,7 +481,8 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cor
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -440,7 +518,8 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -476,7 +555,8 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -512,7 +592,8 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ext
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -548,7 +629,8 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fla
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -584,7 +666,8 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fla
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -620,7 +703,8 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fla
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -656,7 +740,8 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpi
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -692,7 +777,8 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -728,7 +814,8 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -764,7 +851,8 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -800,7 +888,8 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -836,7 +925,8 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -872,7 +962,45 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+
+CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  E:/SingleChips/bsp/Motor_3508/Core/Inc/stm32f4xx_hal_conf.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/core_cm4.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/cmsis_version.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/cmsis_compiler.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/cmsis_gcc.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/mpu_armv7.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/User/UC/Caculate.c.obj: E:/SingleChips/bsp/Motor_3508/User/UC/Caculate.c \
   E:/SingleChips/bsp/Motor_3508/User/UC/Caculate.h \
@@ -913,6 +1041,7 @@ CMakeFiles/Motor_3508.elf.dir/User/UC/Caculate.c.obj: E:/SingleChips/bsp/Motor_3
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/math.h \
   F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
   F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
@@ -962,7 +1091,8 @@ CMakeFiles/Motor_3508.elf.dir/User/UC/DJI.c.obj: E:/SingleChips/bsp/Motor_3508/U
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/User/UC/wtr_can.c.obj: E:/SingleChips/bsp/Motor_3508/User/UC/wtr_can.c \
   E:/SingleChips/bsp/Motor_3508/User/UC/wtr_can.h \
@@ -1002,7 +1132,8 @@ CMakeFiles/Motor_3508.elf.dir/User/UC/wtr_can.c.obj: E:/SingleChips/bsp/Motor_35
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/Motor_3508.elf.dir/User/bsp_LED.c.obj: E:/SingleChips/bsp/Motor_3508/User/bsp_LED.c \
   E:/SingleChips/bsp/Motor_3508/User/bsp_LED.h \
@@ -1039,7 +1170,80 @@ CMakeFiles/Motor_3508.elf.dir/User/bsp_LED.c.obj: E:/SingleChips/bsp/Motor_3508/
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
   E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+
+CMakeFiles/Motor_3508.elf.dir/User/retarget/retarget.c.obj: E:/SingleChips/bsp/Motor_3508/User/retarget/retarget.c \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_syslist.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/errno.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/errno.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/time.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_timeval.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/types.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/endian.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_endian.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/select.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_sigset.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/timespec.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_timespec.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/sched.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/types.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/time.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/time.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_time.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/times.h \
+  E:/SingleChips/bsp/Motor_3508/User/retarget/retarget.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  E:/SingleChips/bsp/Motor_3508/Core/Inc/stm32f4xx_hal_conf.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/core_cm4.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/cmsis_version.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/cmsis_compiler.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/cmsis_gcc.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/mpu_armv7.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/stat.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdio.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/stdio.h
 
 
 E:/SingleChips/bsp/Motor_3508/Core/Inc/gpio.h:
@@ -1058,17 +1262,19 @@ E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def
 
 E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 
+E:/SingleChips/bsp/Motor_3508/User/retarget/retarget.h:
+
 F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdlib.h:
 
 F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/stat.h:
 
 E:/SingleChips/bsp/Motor_3508/Core/Inc/can.h:
 
-E:/SingleChips/bsp/Motor_3508/Core/Inc/main.h:
+F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h:
 
 E:/SingleChips/bsp/Motor_3508/Core/Src/stm32f4xx_hal_msp.c:
 
-F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h:
+E:/SingleChips/bsp/Motor_3508/Core/Inc/main.h:
 
 E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
 
@@ -1086,7 +1292,11 @@ E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr
 
 E:/SingleChips/bsp/Motor_3508/Drivers/CMSIS/Include/core_cm4.h:
 
+F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_sigset.h:
+
 F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
+
+F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_syslist.h:
 
 E:/SingleChips/bsp/Motor_3508/User/bsp_LED.h:
 
@@ -1146,19 +1356,17 @@ E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can
 
 E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
 
+E:/SingleChips/bsp/Motor_3508/Core/Inc/usart.h:
+
+E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
+
 E:/SingleChips/bsp/Motor_3508/Core/Src/main.c:
 
 E:/SingleChips/bsp/Motor_3508/User/UC/DJI.h:
 
 E:/SingleChips/bsp/Motor_3508/User/UC/Caculate.h:
 
-E:/SingleChips/bsp/Motor_3508/Core/Src/stm32f4xx_it.c:
-
 E:/SingleChips/bsp/Motor_3508/User/UC/wtr_can.h:
-
-E:/SingleChips/bsp/Motor_3508/Core/Inc/stm32f4xx_it.h:
-
-E:/SingleChips/bsp/Motor_3508/Core/Src/syscalls.c:
 
 F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h:
 
@@ -1180,8 +1388,6 @@ F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/m
 
 F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/types.h:
 
-F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_sigset.h:
-
 F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_timeval.h:
 
 F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/timespec.h:
@@ -1192,6 +1398,18 @@ F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/s
 
 F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h:
 
+F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdio.h:
+
+F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
+
+F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/stdio.h:
+
+E:/SingleChips/bsp/Motor_3508/Core/Src/stm32f4xx_it.c:
+
+E:/SingleChips/bsp/Motor_3508/Core/Inc/stm32f4xx_it.h:
+
+E:/SingleChips/bsp/Motor_3508/Core/Src/syscalls.c:
+
 F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h:
 
 F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/alloca.h:
@@ -1199,12 +1417,6 @@ F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/a
 F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/errno.h:
 
 F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/errno.h:
-
-F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdio.h:
-
-F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
-
-F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/stdio.h:
 
 E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:
 
@@ -1223,6 +1435,8 @@ F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/s
 E:/SingleChips/bsp/Motor_3508/Core/Src/sysmem.c:
 
 E:/SingleChips/bsp/Motor_3508/Core/Src/system_stm32f4xx.c:
+
+E:/SingleChips/bsp/Motor_3508/Core/Src/usart.c:
 
 E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:
 
@@ -1248,6 +1462,8 @@ E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr
 
 E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:
 
+E:/SingleChips/bsp/Motor_3508/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c:
+
 E:/SingleChips/bsp/Motor_3508/User/UC/Caculate.c:
 
 F:/Environment/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/math.h:
@@ -1257,3 +1473,5 @@ E:/SingleChips/bsp/Motor_3508/User/UC/DJI.c:
 E:/SingleChips/bsp/Motor_3508/User/UC/wtr_can.c:
 
 E:/SingleChips/bsp/Motor_3508/User/bsp_LED.c:
+
+E:/SingleChips/bsp/Motor_3508/User/retarget/retarget.c:

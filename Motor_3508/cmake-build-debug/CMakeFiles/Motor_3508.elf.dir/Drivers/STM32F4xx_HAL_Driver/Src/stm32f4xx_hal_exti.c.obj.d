@@ -33,4 +33,5 @@ CMakeFiles/Motor_3508.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ext
  E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ex.h \
  E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \
  E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
- E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h
+ E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
+ E:\SingleChips\bsp\Motor_3508\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h

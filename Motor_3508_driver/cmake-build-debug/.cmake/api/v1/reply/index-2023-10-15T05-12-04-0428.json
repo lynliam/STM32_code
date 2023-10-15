@@ -1,0 +1,116 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "MinGW Makefiles"
+		},
+		"paths" : 
+		{
+			"cmake" : "D:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/x64/bin/cmake.exe",
+			"cpack" : "D:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/x64/bin/cpack.exe",
+			"ctest" : "D:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/x64/bin/ctest.exe",
+			"root" : "D:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/x64/share/cmake-3.25"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 25,
+			"patch" : 2,
+			"string" : "3.25.2",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+<<<<<<<< HEAD:Unitree_M8010/cmake-build-debug/.cmake/api/v1/reply/index-2023-10-13T10-56-44-0467.json
+			"jsonFile" : "codemodel-v2-c004483fd5f2449a7a56.json",
+========
+			"jsonFile" : "codemodel-v2-a3c5baca30915d46fd60.json",
+>>>>>>>> 23c033ee4ae4138d84e5a15d9bd58137019c1e42:Motor_3508_driver/cmake-build-debug/.cmake/api/v1/reply/index-2023-10-15T05-12-04-0428.json
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 4
+			}
+		},
+		{
+			"jsonFile" : "cache-v2-f2e2f70480667e1faada.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "cmakeFiles-v1-afa193d1d65b89166ec8.json",
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "toolchains-v1-d9eb85ec4f2283a1e4cf.json",
+			"kind" : "toolchains",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		}
+	],
+	"reply" : 
+	{
+		"cache-v2" : 
+		{
+			"jsonFile" : "cache-v2-f2e2f70480667e1faada.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		"cmakeFiles-v1" : 
+		{
+			"jsonFile" : "cmakeFiles-v1-afa193d1d65b89166ec8.json",
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		},
+		"codemodel-v2" : 
+		{
+<<<<<<<< HEAD:Unitree_M8010/cmake-build-debug/.cmake/api/v1/reply/index-2023-10-13T10-56-44-0467.json
+			"jsonFile" : "codemodel-v2-c004483fd5f2449a7a56.json",
+========
+			"jsonFile" : "codemodel-v2-a3c5baca30915d46fd60.json",
+>>>>>>>> 23c033ee4ae4138d84e5a15d9bd58137019c1e42:Motor_3508_driver/cmake-build-debug/.cmake/api/v1/reply/index-2023-10-15T05-12-04-0428.json
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 4
+			}
+		},
+		"toolchains-v1" : 
+		{
+			"jsonFile" : "toolchains-v1-d9eb85ec4f2283a1e4cf.json",
+			"kind" : "toolchains",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		}
+	}
+}

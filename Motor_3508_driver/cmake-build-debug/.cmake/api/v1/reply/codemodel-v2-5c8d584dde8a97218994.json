@@ -1,0 +1,64 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Motor_3508",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Motor_3508.elf::@6890427a1f51a3e7e1df",
+<<<<<<<< HEAD:Motor_3508_driver/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-5c8d584dde8a97218994.json
+					"jsonFile" : "target-Motor_3508.elf-Debug-d25c0d339dd51438a774.json",
+========
+					"jsonFile" : "target-Motor_3508.elf-Debug-8daedcf7115c4ce03c8b.json",
+>>>>>>>> 23c033ee4ae4138d84e5a15d9bd58137019c1e42:Motor_3508_driver/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-a3c5baca30915d46fd60.json
+					"name" : "Motor_3508.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/SingleChips/STM32_code/Motor_3508/cmake-build-debug",
+		"source" : "F:/SingleChips/STM32_code/Motor_3508"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

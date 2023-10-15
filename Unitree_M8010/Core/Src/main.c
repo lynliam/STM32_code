@@ -107,9 +107,15 @@ int main(void)
       //printf("%lu\n",huart6.Instance->BRR);
       HAL_Delay(10);
       //目前击球最佳参数：
-      Unitree_UART_tranANDrev(Unitree_Motor,0,1,0,0,0,0.5,0.01);
+      Unitree_UART_tranANDrev(Unitree_Motor,0,1,0,0,-3.14,0.5,0.01);
+
+      HAL_Delay(4000);
+
+      Unitree_UART_tranANDrev(Unitree_Motor,0,1,0,3.14,0,0.03,0.01);
+
       //printf("%d\n",a);
       printf("%.2f,%.2f,%.2f\n",Unitree_Motor[0].data.T,Unitree_Motor[0].data.W/6.33,Unitree_Motor[0].data.Pos/6.33);
+      while(1);
 
     /* USER CODE END WHILE */
 

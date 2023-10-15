@@ -49,11 +49,11 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include User User/UC)
+include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include User/retarget User/UC User)
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F427xx)
 
-file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*" "User/*.c" "User/UC/*.c")
+file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*" "User/*.*" "User/UC/*.*" "User/retarget/*.*")
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F427IIHX_FLASH.ld)
 

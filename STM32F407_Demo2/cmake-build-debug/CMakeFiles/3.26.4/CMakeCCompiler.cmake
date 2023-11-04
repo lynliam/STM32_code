@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "F:/Environment/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe")
+set(CMAKE_C_COMPILER "/home/lyn/Environment/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "10.3.1")
@@ -22,10 +22,10 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 set(CMAKE_AR "arm-none-eabi-ar")
-set(CMAKE_C_COMPILER_AR "F:/Environment/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc-ar.exe")
-set(CMAKE_RANLIB "F:/Environment/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-ranlib.exe")
-set(CMAKE_C_COMPILER_RANLIB "F:/Environment/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc-ranlib.exe")
-set(CMAKE_LINKER "F:/Environment/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-ld.exe")
+set(CMAKE_C_COMPILER_AR "/home/lyn/Environment/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ar")
+set(CMAKE_RANLIB "/home/lyn/Environment/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ranlib")
+set(CMAKE_C_COMPILER_RANLIB "/home/lyn/Environment/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ranlib")
+set(CMAKE_LINKER "/home/lyn/Environment/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ld")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
@@ -66,7 +66,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "F:/Environment/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include;F:/Environment/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed;F:/Environment/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/home/lyn/Environment/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include;/home/lyn/Environment/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed;/home/lyn/Environment/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

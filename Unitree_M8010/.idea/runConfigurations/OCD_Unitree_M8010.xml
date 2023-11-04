@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="OCD Unitree_M8010" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Unitree_M8010" TARGET_NAME="Unitree_M8010.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="Unitree_M8010" RUN_TARGET_NAME="Unitree_M8010.elf">
-    <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="F:\SingleChips\STM32_code\Unitree_M8010\stm32f429discovery.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+  <configuration default="false" name="OCD Unitree_M8010" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Unitree_M8010" TARGET_NAME="Unitree_M8010.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="Unitree_M8010" RUN_TARGET_NAME="Unitree_M8010.elf">
+    <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="E:\SingleChips\bsp\Unitree_M8010\stm32f429discovery.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
       <debugger kind="GDB" isBundled="true" />
     </openocd>
     <method v="2">

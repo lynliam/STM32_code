@@ -1,4 +1,4 @@
-# Install script for directory: F:/SingleChips/STM32_code/Unitree_M8010
+# Install script for directory: E:/SingleChips/bsp/Unitree_M8010
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "F:/SingleChips/STM32_code/Unitree_M8010/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/SingleChips/bsp/Unitree_M8010/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

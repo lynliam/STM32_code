@@ -101,14 +101,16 @@ int main(void)
     HAL_GPIO_WritePin(GPIOG,GPIO_PIN_1,GPIO_PIN_RESET);
     HAL_GPIO_WritePin(GPIOG,GPIO_PIN_2,GPIO_PIN_RESET);
     CANFilterInit(&hcan1);
+    /*
     hDJI[0].motorType = M3508;
     hDJI[1].motorType = M3508;
     hDJI[2].motorType = M2006;
+    */
+    hDJI[0].motorType = M2006;
 
     DJI_Init();
 
-
-    HAL_UARTEx_ReceiveToIdle_IT(&huart8,RxBuffer,6);
+    //HAL_UARTEx_ReceiveToIdle_IT(&huart8,RxBuffer,6);
 
   /* USER CODE END 2 */
 
@@ -116,6 +118,12 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+      //HAL_Delay(1000);
+      positionServo(90,&hDJI[0]);
+      CanTransmit_DJI_1234(&hcan1,hDJI[0].speedPID.output,0,0,0);
+      printf("%f,%f\n",hDJI[0].AxisData.AxisAngle_inDegree,hDJI[0].Calculate.RotorAngle_all/36.0);
+      HAL_Delay(2);
+      /*
       positionServo(motor_1,&hDJI[0]);
       positionServo(motor_1,&hDJI[1]);
       positionServo(motor_2,&hDJI[2]);
@@ -123,6 +131,7 @@ int main(void)
       //printf("%f,%f\n",hDJI[0].AxisData.AxisAngle_inDegree,hDJI[0].AxisData.AxisVelocity);
       printf("%f\n",motor_1);
       HAL_Delay(2);
+       */
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

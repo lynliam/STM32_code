@@ -1,0 +1,3 @@
+/media/lyn/data/SingleChips/bsp/AS5048A/cmake-build-debug/CMakeFiles/AS5048A.elf.dir
+/media/lyn/data/SingleChips/bsp/AS5048A/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/lyn/data/SingleChips/bsp/AS5048A/cmake-build-debug/CMakeFiles/rebuild_cache.dir

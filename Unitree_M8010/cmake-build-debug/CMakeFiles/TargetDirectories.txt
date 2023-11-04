@@ -1,3 +1,3 @@
-F:/SingleChips/STM32_code/Unitree_M8010/cmake-build-debug/CMakeFiles/Unitree_M8010.elf.dir
-F:/SingleChips/STM32_code/Unitree_M8010/cmake-build-debug/CMakeFiles/edit_cache.dir
-F:/SingleChips/STM32_code/Unitree_M8010/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/SingleChips/bsp/Unitree_M8010/cmake-build-debug/CMakeFiles/Unitree_M8010.elf.dir
+E:/SingleChips/bsp/Unitree_M8010/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/SingleChips/bsp/Unitree_M8010/cmake-build-debug/CMakeFiles/rebuild_cache.dir

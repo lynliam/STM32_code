@@ -98,6 +98,8 @@ int main(void)
     //Unitree_UART_tranANDrev(Unitree_Motor,0,2,0,0,0,0,0.0);
     //HAL_Delay(6000);
     uint8_t a = 0;
+    uint8_t kp =0.2;
+    uint8_t key = 0;
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -105,17 +107,20 @@ int main(void)
   while (1)
   {
       //printf("%lu\n",huart6.Instance->BRR);
-      HAL_Delay(10);
+      HAL_Delay(3);
       //目前击球最佳参数：
-      Unitree_UART_tranANDrev(Unitree_Motor,0,1,0,0,-3.14,0.5,0.01);
+      //Unitree_UART_tranANDrev(Unitree_Motor,0,1,0,0,-3.14,0.5,0.01);
+      //HAL_Delay(4000);
 
-      HAL_Delay(4000);
-
-      Unitree_UART_tranANDrev(Unitree_Motor,0,1,0,3.14,0,0.03,0.01);
-
+      //𝜏 = 𝜏𝑓𝑓 + 𝑘𝑝 × (𝑝𝑑𝑒𝑠 − 𝑝) + 𝑘𝑑 × (𝜔𝑑𝑒𝑠 − 𝜔)
+      Unitree_UART_tranANDrev(Unitree_Motor,0,1,0,0,0,0,0.05);
+//      if(Unitree_Motor[0].data.W >= 3.14 &&key ==0)
+//      {
+//          kp=0.6;
+//          key = 1;
+//      }
       //printf("%d\n",a);
       printf("%.2f,%.2f,%.2f\n",Unitree_Motor[0].data.T,Unitree_Motor[0].data.W/6.33,Unitree_Motor[0].data.Pos/6.33);
-      while(1);
 
     /* USER CODE END WHILE */
 

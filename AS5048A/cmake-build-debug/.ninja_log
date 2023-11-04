@@ -1,0 +1,27 @@
+# ninja log v5
+38	144	1698937015450493800	CMakeFiles/AS5048A.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj	8c491552b70c95cd
+88	194	1698937015502493900	CMakeFiles/AS5048A.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj	fce78790ee858f60
+1	84	1698937015390493600	CMakeFiles/AS5048A.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj	62cc9bfa21734a08
+81	158	1698937015466493800	CMakeFiles/AS5048A.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj	3d8a84698f3f371a
+1	48	1698937015354493500	CMakeFiles/AS5048A.elf.dir/Core/Src/stm32f4xx_it.c.obj	3cb1f34873555250
+65	184	1698937015490493900	CMakeFiles/AS5048A.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj	b45d4d37eabe8157
+151	191	1698937015498493900	CMakeFiles/AS5048A.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj	55f9599a8a443b52
+1	88	1698937015394493600	CMakeFiles/AS5048A.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj	e2feed5eceb90549
+144	204	1698937015510493900	CMakeFiles/AS5048A.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj	2cc496be20d2a563
+0	76	1698937015374493600	CMakeFiles/AS5048A.elf.dir/Core/Src/gpio.c.obj	3d8bb9e5de20af49
+0	81	1698937015386493600	CMakeFiles/AS5048A.elf.dir/Core/Src/spi.c.obj	5c3674a7a8b219be
+326	351	1698937015654494300	AS5048A.elf	3ca5391908d308be
+1	44	1698937015350493500	CMakeFiles/AS5048A.elf.dir/Core/Src/syscalls.c.obj	b7a68774e87c3040
+1	24	1698937015330493500	CMakeFiles/AS5048A.elf.dir/Core/Src/sysmem.c.obj	a88c733bd9efe2a2
+84	166	1698937015474493800	CMakeFiles/AS5048A.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj	4a27335520202b59
+24	38	1698937015346493500	CMakeFiles/AS5048A.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj	361975214d1f194
+137	326	1698937015634494200	CMakeFiles/AS5048A.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj	e11b579e96cc695e
+48	151	1698937015458493800	CMakeFiles/AS5048A.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj	44b862e7c450009c
+44	155	1698937015462493800	CMakeFiles/AS5048A.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj	2d107c2c400b926a
+124	208	1698937015514493900	CMakeFiles/AS5048A.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj	b568f3d6762abc13
+0	78	1698937015386493600	CMakeFiles/AS5048A.elf.dir/Core/Src/main.c.obj	19fdefe0e44fb5d5
+1	44	1698937015350493500	CMakeFiles/AS5048A.elf.dir/Core/Src/system_stm32f4xx.c.obj	42ced4edd47df2f4
+76	137	1698937015442493700	CMakeFiles/AS5048A.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj	621285a2c2189da7
+44	124	1698937015430493700	CMakeFiles/AS5048A.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj	2e8aa7f1634d8319
+1	64	1698937015370493600	CMakeFiles/AS5048A.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj	df3c0d4be933a1f7
+78	179	1698937015478493800	CMakeFiles/AS5048A.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj	a59ca8469955611a

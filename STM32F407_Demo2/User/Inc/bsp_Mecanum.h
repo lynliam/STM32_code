@@ -6,6 +6,7 @@
 #define STM32F407_DEMO2_BSP_MECANUM_H
 
 #include "motor_control.h"
+#include "math.h"
 extern float cal_matrix[4][3];
 extern float motor_w[4];
 extern float car_speed[3];

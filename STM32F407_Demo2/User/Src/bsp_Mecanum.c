@@ -22,3 +22,17 @@ void cal_motor_speed(float cal_matrix_[4][3],float* motor_w_,float* car_speed_,f
     motor_w_[3]=(cal_matrix_[3][0]*car_speed_[0] + cal_matrix_[3][1]*car_speed_[1] + cal_matrix_[3][2]*car_speed_[2])/MOTOR_R_;
     //printf("%f,%f,%f,%f\n",motor_w_[0]*2*3.1415/5.5*1000.0,motor_w_[1]*2*3.1415/5.5*1000.0,motor_w_[2]*2*3.1415/5.5*1000.0,motor_w_[3]*2*3.1415/5.5*1000.0);
 }
+
+/*
+float theta_cal(float x, float y)
+{
+    if(x!=0&&y>0)
+    {
+        return atan2()
+    } else if(x!=0 && y<0)
+    {
+
+    }
+    return ;
+}
+ */

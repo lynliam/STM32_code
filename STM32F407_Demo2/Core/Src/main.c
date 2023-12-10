@@ -37,7 +37,8 @@
 #include "wit_c_sdk.h"
 #include "wit_callback.h"
 #include "bsp_encoder.h"
-
+#include "EnterCritical.h"
+#include "math.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -68,7 +69,7 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+volatile float theta ;
 /* USER CODE END 0 */
 
 /**
@@ -121,7 +122,6 @@ uint8_t key=0;
     MY_GPIO_Init();
     //重定向
     RetargetInit(&huart4);
-
     /*   motor Init   */
     char Data[10]="3";
     motor_init(0,htim2,htim10,TIM_CHANNEL_1,htim11,TIM_CHANNEL_1);
@@ -161,6 +161,9 @@ uint8_t key=0;
     printf("\r\n********************** wit-motion normal example  ************************\r\n");
     //AutoScanSensor();
 
+    //纠偏PID初始化：
+    _PID_t PID_for_w;
+    PID_Param_init(&PID_for_w);
     /*    IMU Init    */
 
     //HAL_TIM_Base_Start_IT(&htim14);
@@ -189,8 +192,8 @@ uint8_t key=0;
       //oled显示
       draw_speed(&motor[0]);
       //ps2读取数据
+      portENTER_CRITICAL();
       PS2_Read_Data();
-
       car_speed[0]=5.0/128.0*PS2_Data.Rocker_LY;
       car_speed[1]=5.0/128.0*PS2_Data.Rocker_RX;
       if(PS2_Data.Key_L1 != 0)
@@ -198,8 +201,12 @@ uint8_t key=0;
       else if(PS2_Data.Key_L2!=0)
         car_speed[2]=PS2_Data.Key_R1*0.003;
       else{
+          printf("%f,%f\n\n",car_speed[0],car_speed[1]);
+          theta = atan2f(car_speed[0], car_speed[1]);
+          printf("theta:%f\n\n",theta);
           car_speed[2]=0.0;
       }
+      portEXIT_CRITICAL();
       //car_speed[2] = 0;
 
       while(!HAL_GPIO_ReadPin(GPIOD,GPIO_PIN_3))
@@ -239,7 +246,8 @@ uint8_t key=0;
         //printf("%f,%f,%f\n",car_speed[0],car_speed[1],car_speed[2]);
         //printf("%f,%f,%f,%f\n",)
         //printf("%f,%f,%f,%f\n",motor[0].motor_pid.target,motor[0].motor_pid.target,motor[0].motor_pid.target,motor[0].motor_pid.target);
-        printf("%f,%f,%f,%f\n",motor[0].actual_speed,motor[1].actual_speed,motor[2].actual_speed,motor[3].actual_speed);
+        //printf("%f,%f,%f,%f\n",motor[0].actual_speed,motor[1].actual_speed,motor[2].actual_speed,motor[3].actual_speed);
+        //printf("%f,%f,%f\n",data_imu[6].data,data_imu[7].data,data_imu[8].data);
         //printf("%f,%f,%f,%f\n",motor[0].motor_overflow_counter.Capture_Count,motor[1].motor_overflow_counter.Capture_Count,motor[2].motor_overflow_counter.Capture_Count,motor[3].motor_overflow_counter.Capture_Count);
         //printf("%d,%d,%d,%d,%d,%d,%f\n",PS2_Data.A_D,PS2_Data.Rocker_LX,PS2_Data.Rocker_LY,PS2_Data.Rocker_RX,PS2_Data.Rocker_RY,PS2_Data.Key_L1,car_speed[2]);
         //printf("%d,%d,%d,%d,%d,%d,%d,%d,%d\n",PS2data[0],PS2data[1],PS2data[2],PS2data[3],PS2data[4],PS2data[5],PS2data[6],PS2data[7],PS2data[8]);

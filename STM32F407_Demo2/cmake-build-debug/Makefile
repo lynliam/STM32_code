@@ -760,6 +760,30 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F407_Demo2.elf.dir\build.make CMakeFiles/STM32F407_Demo2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 
+User/Src/EnterCritical.obj: User/Src/EnterCritical.c.obj
+.PHONY : User/Src/EnterCritical.obj
+
+# target to build an object file
+User/Src/EnterCritical.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F407_Demo2.elf.dir\build.make CMakeFiles/STM32F407_Demo2.elf.dir/User/Src/EnterCritical.c.obj
+.PHONY : User/Src/EnterCritical.c.obj
+
+User/Src/EnterCritical.i: User/Src/EnterCritical.c.i
+.PHONY : User/Src/EnterCritical.i
+
+# target to preprocess a source file
+User/Src/EnterCritical.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F407_Demo2.elf.dir\build.make CMakeFiles/STM32F407_Demo2.elf.dir/User/Src/EnterCritical.c.i
+.PHONY : User/Src/EnterCritical.c.i
+
+User/Src/EnterCritical.s: User/Src/EnterCritical.c.s
+.PHONY : User/Src/EnterCritical.s
+
+# target to generate assembly for a file
+User/Src/EnterCritical.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F407_Demo2.elf.dir\build.make CMakeFiles/STM32F407_Demo2.elf.dir/User/Src/EnterCritical.c.s
+.PHONY : User/Src/EnterCritical.c.s
+
 User/Src/My_spi.obj: User/Src/My_spi.c.obj
 .PHONY : User/Src/My_spi.obj
 
@@ -1208,6 +1232,9 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s
+	@echo ... User/Src/EnterCritical.obj
+	@echo ... User/Src/EnterCritical.i
+	@echo ... User/Src/EnterCritical.s
 	@echo ... User/Src/My_spi.obj
 	@echo ... User/Src/My_spi.i
 	@echo ... User/Src/My_spi.s

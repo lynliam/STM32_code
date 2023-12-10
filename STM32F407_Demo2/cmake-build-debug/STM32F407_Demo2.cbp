@@ -376,6 +376,9 @@
 		<Unit filename="E:/SingleChips/bsp/STM32F407_Demo2/STM32F407VETX_FLASH.ld">
 			<Option target="STM32F407_Demo2.elf"/>
 		</Unit>
+		<Unit filename="E:/SingleChips/bsp/STM32F407_Demo2/User/Src/EnterCritical.c">
+			<Option target="STM32F407_Demo2.elf"/>
+		</Unit>
 		<Unit filename="E:/SingleChips/bsp/STM32F407_Demo2/User/Src/My_spi.c">
 			<Option target="STM32F407_Demo2.elf"/>
 		</Unit>

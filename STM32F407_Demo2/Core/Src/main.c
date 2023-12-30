@@ -164,6 +164,8 @@ uint8_t key=0;
     //纠偏PID初始化：
     _PID_t PID_for_w;
     PID_Param_init(&PID_for_w);
+    set_p_i_d(&PID_for_w,2.0,0,1.0);
+    int16_t temp_direction = 0;
     /*    IMU Init    */
 
     //HAL_TIM_Base_Start_IT(&htim14);
@@ -192,19 +194,31 @@ uint8_t key=0;
       //oled显示
       draw_speed(&motor[0]);
       //ps2读取数据
-      portENTER_CRITICAL();
       PS2_Read_Data();
+      portENTER_CRITICAL();
+
       car_speed[0]=5.0/128.0*PS2_Data.Rocker_LY;
       car_speed[1]=5.0/128.0*PS2_Data.Rocker_RX;
+/*
+      if(PS2_Data.Key_L2 == 1){
+          temp_direction = 3.14159/2;
+      } else if(PS2_Data.Key_R2 == 1){
+          temp_direction = -3.1415926/2;
+      }
+      */
       if(PS2_Data.Key_L1 != 0)
-        car_speed[2]=PS2_Data.Key_L1*0.003;
+        car_speed[2]=PS2_Data.Key_L1*0.03;
       else if(PS2_Data.Key_L2!=0)
-        car_speed[2]=PS2_Data.Key_R1*0.003;
+        car_speed[2]=-PS2_Data.Key_R1*0.03;
       else{
-          printf("%f,%f\n\n",car_speed[0],car_speed[1]);
-          theta = atan2f(car_speed[0], car_speed[1]);
-          printf("theta:%f\n\n",theta);
-          car_speed[2]=0.0;
+          //printf("%f,%f\n\n",car_speed[1],car_speed[0]);
+          //printf("%f,%f,%f\n",data_imu[6].data,data_imu[7].data,data_imu[8].data);
+          //printf("%d,%d\n",PS2_Data.Key_L1,PS2_Data.Key_R2);
+          theta = atan2f(car_speed[1], car_speed[0]);
+          set_pid_target(&PID_for_w,temp_direction);
+          //car_speed[2]=PID_realize(&PID_for_w,data_imu[8].data/360.0*2*3.1415926)*0.05;
+          car_speed[2] = 0;
+          //printf("%f,%f,%f\n",data_imu[8].data,theta,car_speed[2]);
       }
       portEXIT_CRITICAL();
       //car_speed[2] = 0;

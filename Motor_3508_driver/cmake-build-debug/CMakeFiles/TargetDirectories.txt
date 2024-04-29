@@ -1,3 +1,3 @@
-/media/lyn/data/SingleChips/bsp/Motor_3508_driver/cmake-build-debug/CMakeFiles/Motor_3508.elf.dir
-/media/lyn/data/SingleChips/bsp/Motor_3508_driver/cmake-build-debug/CMakeFiles/edit_cache.dir
-/media/lyn/data/SingleChips/bsp/Motor_3508_driver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/SingleChips/bsp/Motor_3508_driver/cmake-build-debug/CMakeFiles/Motor_3508.elf.dir
+E:/SingleChips/bsp/Motor_3508_driver/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/SingleChips/bsp/Motor_3508_driver/cmake-build-debug/CMakeFiles/rebuild_cache.dir

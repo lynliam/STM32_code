@@ -1,8 +1,8 @@
-# Install script for directory: /media/lyn/data/SingleChips/bsp/Motor_3508_driver
+# Install script for directory: E:/SingleChips/bsp/Motor_3508_driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Motor_3508")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/lyn/data/SingleChips/bsp/Motor_3508_driver/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/SingleChips/bsp/Motor_3508_driver/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

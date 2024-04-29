@@ -27,10 +27,12 @@
 /* USER CODE BEGIN Includes */
 #include "led.h"
 #include "lcd.h"
-#include "24cxx.h"
 #include "touch.h"
 #include "retarget.h"
 #include <stdio.h>
+#include "lvgl.h"
+#include "lv_port_disp.h"
+#include "lv_port_indev.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -259,6 +261,7 @@ int main(void)
   MX_USART1_UART_Init();
   MX_FSMC_Init();
   /* USER CODE BEGIN 2 */
+  /*
   u8 x=0;
 	u8 lcd_id[12];						//存放LCD ID字符串
   RetargetInit(&huart1);
@@ -282,6 +285,7 @@ int main(void)
   delay_ms(1500);
   Load_Drow_Dialog();	 	
   printf("%x",tp_dev.touchtype);
+  */
   /* USER CODE END 2 */
   
   /* Infinite loop */
@@ -310,8 +314,10 @@ int main(void)
 		//LED0=!LED0;	 
 		//delay_ms(1000);	
     //printf("Hello World!\r\n");
+	/*
     if(tp_dev.touchtype&0X80)ctp_test();//电容屏测试
     else rtp_test(); 					//电阻屏测试
+	*/
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

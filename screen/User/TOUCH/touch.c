@@ -3,7 +3,6 @@
 #include "bsp_delay.h"
 #include "stdlib.h"
 #include "math.h"
-#include "24cxx.h" 
 //////////////////////////////////////////////////////////////////////////////////	 
 //本程序只供学习使用，未经作者许可，不得用于其它任何用途
 //ALIENTEK STM32开发板
@@ -270,11 +269,11 @@ void TP_Adj_Info_Show(u16 x0,u16 y0,u16 x1,u16 y1,u16 x2,u16 y2,u16 x3,u16 y3,u1
 	LCD_ShowNum(40+24,220,x3,4,16);		//显示数值
 	LCD_ShowNum(40+24+80,220,y3,4,16);	//显示数值
  	LCD_ShowNum(40+56,240,fac,3,16); 	//显示数值,该数值必须在95~105范围之内.
-
 }
 		 
 //触摸屏校准代码
 //得到四个校准参数
+
 void TP_Adjust(void)
 {								 
 	u16 pos_temp[4][2];//坐标缓存值
@@ -425,6 +424,7 @@ void TP_Adjust(void)
 	 	} 
  	}
 }	 
+
 //触摸屏初始化  		    
 //返回值:0,没有进行校准
 //       1,进行过校准
@@ -443,52 +443,6 @@ u8 TP_Init(void)
 		tp_dev.touchtype|=0X80;			//电容屏 
 		tp_dev.touchtype|=lcddev.dir&0X01;//横屏还是竖屏 
 		return 0;
-	}else if(lcddev.id==0X1963)			//7寸电容触摸屏
-	{
-		FT5206_Init();
-		tp_dev.scan=FT5206_Scan;		//扫描函数指向GT9147触摸屏扫描		
-		tp_dev.touchtype|=0X80;			//电容屏 
-		tp_dev.touchtype|=lcddev.dir&0X01;//横屏还是竖屏 
-		return 0;
-	}else
-	{
-		GPIO_InitTypeDef GPIO_Initure;
-
-		__HAL_RCC_GPIOB_CLK_ENABLE();           	//开启GPIOB时钟
-		__HAL_RCC_GPIOF_CLK_ENABLE();           	//开启GPIOF时钟
-		
-		//PB1
-		GPIO_Initure.Pin=GPIO_PIN_1; 				//PB1
-		GPIO_Initure.Mode=GPIO_MODE_OUTPUT_PP;  	//推挽输出
-		GPIO_Initure.Pull=GPIO_PULLUP;          	//上拉
-		GPIO_Initure.Speed=GPIO_SPEED_FREQ_HIGH;    //高速
-		HAL_GPIO_Init(GPIOB,&GPIO_Initure);
-	
-		//PB2
-		GPIO_Initure.Pin=GPIO_PIN_2; 				//PB2
-		GPIO_Initure.Mode=GPIO_MODE_INPUT;  		//上拉输入
-		HAL_GPIO_Init(GPIOB,&GPIO_Initure);
-		
-		//PF9,11
-		GPIO_Initure.Pin=GPIO_PIN_9|GPIO_PIN_11; 	//PF9,11
-		GPIO_Initure.Mode=GPIO_MODE_OUTPUT_PP;  	//推挽输出
-		HAL_GPIO_Init(GPIOF,&GPIO_Initure);
-		
-		//PF10
-		GPIO_Initure.Pin=GPIO_PIN_10; 				//PF10
-		GPIO_Initure.Mode=GPIO_MODE_INPUT;  		//输入
-		GPIO_Initure.Pull=GPIO_PULLUP;          	//上拉
-		HAL_GPIO_Init(GPIOF,&GPIO_Initure);
-
-		TP_Read_XY(&tp_dev.x[0],&tp_dev.y[0]);//第一次读取初始化	 
-		AT24CXX_Init();			//初始化24CXX
-		if(TP_Get_Adjdata())return 0;//已经校准
-		else			  		//未校准?
-		{ 										    
-			LCD_Clear(WHITE);	//清屏
-			TP_Adjust();  		//屏幕校准  
-		}			
-		TP_Get_Adjdata();	
 	}
 	return 1; 									 
 }

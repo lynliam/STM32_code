@@ -376,15 +376,6 @@
 		<Unit filename="E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/Unitree_user.h">
 			<Option target="Unitree_M8010.elf"/>
 		</Unit>
-		<Unit filename="E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/crc_ccitt.h">
-			<Option target="Unitree_M8010.elf"/>
-		</Unit>
-		<Unit filename="E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/motor_control.h">
-			<Option target="Unitree_M8010.elf"/>
-		</Unit>
-		<Unit filename="E:/SingleChips/bsp/Unitree_M8010/User/Unitree_SDK/ris_protocol.h">
-			<Option target="Unitree_M8010.elf"/>
-		</Unit>
 		<Unit filename="E:/SingleChips/bsp/Unitree_M8010/User/retarget/retarget.c">
 			<Option target="Unitree_M8010.elf"/>
 		</Unit>

@@ -44,7 +44,7 @@ HAL_StatusTypeDef Unitree_init(UnitreeMotor *MotorInstance)
     MotorInstance->cmd.W=0;
     MotorInstance->cmd.Pos=0;
     MotorInstance->cmd.K_P=0;
-    MotorInstance->cmd.K_W=0.05;
+    MotorInstance->cmd.K_W=0.02;
     if(SERVO_Send_recv(&MotorInstance->cmd,&MotorInstance->data) == 0 && MotorInstance->data.MError == 0)
         return HAL_OK;
     else

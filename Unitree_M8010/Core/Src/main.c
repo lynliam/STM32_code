@@ -94,7 +94,13 @@ int main(void)
   MX_UART8_Init();
   /* USER CODE BEGIN 2 */
     RetargetInit(&huart8);
-    Unitree_init(&Unitree_Motor[0]);
+    HAL_Delay(500);
+    HAL_StatusTypeDef state = Unitree_init(&Unitree_Motor[0]);
+    while(state ==HAL_ERROR)
+    {
+        state = Unitree_init(&Unitree_Motor[0]);
+        HAL_Delay(1);
+    }
     //Unitree_UART_tranANDrev(Unitree_Motor,0,2,0,0,0,0,0.0);
     //HAL_Delay(6000);
     uint8_t a = 0;
@@ -108,12 +114,12 @@ int main(void)
   {
       //printf("%lu\n",huart6.Instance->BRR);
       HAL_Delay(3);
-      //目前击球最佳参数：
+      //目前击球�?佳参数：
       //Unitree_UART_tranANDrev(Unitree_Motor,0,1,0,0,-3.14,0.5,0.01);
       //HAL_Delay(4000);
 
-      //𝜏 = 𝜏𝑓𝑓 + 𝑘𝑝 × (𝑝𝑑𝑒𝑠 − 𝑝) + 𝑘𝑑 × (𝜔𝑑𝑒𝑠 − 𝜔)
-      Unitree_UART_tranANDrev(Unitree_Motor,0,1,0,0,0,0,0.05);
+      //𝜏 = 𝜏𝑓𝑓 + 𝑘𝑝 × (𝑝𝑑𝑒𝑠 �? 𝑝) + 𝑘𝑑 × (𝜔𝑑𝑒𝑠 �? 𝜔)
+      Unitree_UART_tranANDrev(Unitree_Motor,0,1,0,6.28*6.33/5.0,0,0,0.02);
 //      if(Unitree_Motor[0].data.W >= 3.14 &&key ==0)
 //      {
 //          kp=0.6;

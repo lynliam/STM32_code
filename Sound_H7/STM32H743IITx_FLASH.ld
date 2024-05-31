@@ -186,6 +186,12 @@ SECTIONS
     libm.a ( * )
     libgcc.a ( * )
   }
+  
+  ._D1_Area :
+  {
+    . = ALIGN(4);
+    . = ALIGN(4);
+  } >RAM_D1 
 
   .ARM.attributes 0 : { *(.ARM.attributes) }
 }

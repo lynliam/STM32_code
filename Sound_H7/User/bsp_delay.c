@@ -16,6 +16,7 @@ void Delay_us(uint32_t nus)
         counter = __HAL_TIM_GetCounter(&htim17); // 获取定时器当前计数
     }
     HAL_TIM_Base_Stop(&htim17); // 停止定时器
+    
 }
 void delay_us(uint32_t nus)
 {

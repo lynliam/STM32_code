@@ -36,6 +36,8 @@ void RGB_SetMore_Color(uint8_t head, uint8_t heal,RGB_Color_TypeDef color);
 //extern RGB_Color_TypeDef table[16];
 extern const RGB_Color_TypeDef LED_RED;   //红色
 extern const RGB_Color_TypeDef LED_BLACK;    //无颜色
+extern const RGB_Color_TypeDef LED_SKY;  //天蓝色
+extern const RGB_Color_TypeDef LED_MAGENTA;  //粉色
 void RGB_Show_64(void); //RGB写入函数
  
 #endif

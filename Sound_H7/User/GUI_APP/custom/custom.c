@@ -72,21 +72,21 @@ static int32_t get_cos(int32_t deg, int32_t a);
 static int32_t get_sin(int32_t deg, int32_t a);
 
 static const char * title_list[] = {
-    "Waiting for true love",
-    "Need a Better Future",
-    "Vibrations",
+    "In The Name of The Father",
+    "To the North",
+    "What the hell happened",
 };
 
 static const char * artist_list[] = {
-    "The John Smith Band",
-    "My True Name",
-    "Robotics",
+    "Jay Chou",
+    "Jay Chou",
+    "Dear Jane",
 };
 
 static const uint32_t time_list[] = {
-    1*60 + 14,
-    2*60 + 26,
-    1*60 + 54,
+    5*60 + 42,
+    4*60 + 55,
+    4*60 + 26,
 };
 
 static void timer_cb(lv_timer_t *t)

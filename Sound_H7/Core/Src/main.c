@@ -36,6 +36,8 @@
 #include "custom.h"
 #include "events_init.h"
 #include "sdram.h"
+#include  "mode2control.h"
+#include "stm32h7xx_it.h"
 #include "RGB.h"
 /* USER CODE END Includes */
 
@@ -146,21 +148,39 @@ int main(void)
   HAL_TIM_Base_Start_IT(&htim16);
   //fsmc_sdram_test(30,170);
   u8 x=0;
-	u8 lcd_id[12];						//存放LCD ID字符�??
+	u8 lcd_id[12];						//存放LCD ID字符�???
   //LCD_Init();
   //tp_dev.init();  					 
   lv_init();
   lv_port_disp_init();
   lv_port_indev_init();
-  sprintf((char*)lcd_id,"LCD ID:%04X",lcddev.id);//将LCD ID打印到lcd_id数组�??
+  sprintf((char*)lcd_id,"LCD ID:%04X",lcddev.id);//将LCD ID打印到lcd_id数组�???
   printf("%x",tp_dev.touchtype);  
   //lv_demo_keypad_encoder();
   setup_ui(&guider_ui);  
   events_init(&guider_ui);
   custom_init(&guider_ui);
-  HAL_TIM_Base_Start(&htim15);
-  RGB_SetMore_Color(0,8,LED_RED);  
-  RGB_Flush();      //刷新WS2812B的显�?
+  //HAL_TIM_Base_Start(&htim15);
+  RGB_SetMore_Color(0,9,LED_RED);  
+  RGB_Flush();      
+  HAL_UART_Receive_IT(&huart2,(uint8_t*)Rx_data,5);
+  // check_path();
+  // HAL_Delay(1);
+  set_path();
+  // HAL_Delay(1);
+  // check_path();
+  // check_path_();
+  //check_song();
+  
+  //song_start();
+  // HAL_Delay(1);
+  // check_state();
+  HAL_Delay(1);
+  song_start();
+  HAL_Delay(1);
+  song_pause();
+  //HAL_Delay(1);
+  //check_state();
   /* USER CODE END 2 */
 
   /* Infinite loop */

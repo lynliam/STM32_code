@@ -10,6 +10,8 @@
 #include "events_init.h"
 #include <stdio.h>
 #include "lvgl.h"
+#include "RGB.h"
+#include "mode2control.h"
 
 #if LV_USE_FREEMASTER
 #include "freemaster_client.h"
@@ -69,8 +71,14 @@ static void screen_imgbtn_play_event_handler (lv_event_t *e)
 				if (lv_obj_has_state(guider_ui.screen_imgbtn_play, LV_STATE_CHECKED))
 			{
 				lv_demo_music_resume();
+				song_resume();
+				RGB_SetMore_Color(0,8,LED_MAGENTA);  
+				RGB_Flush(); 
 			} else {
 				lv_demo_music_pause();
+				song_pause();
+				RGB_SetMore_Color(0,8,LED_SKY);  
+				RGB_Flush();  
 			}
 		break;
 	}
@@ -86,6 +94,7 @@ static void screen_img_icn_left_event_handler (lv_event_t *e)
 	case LV_EVENT_CLICKED:
 	{
 		lv_demo_music_album_next(false);
+		next_song();
 		break;
 	}
 	default:
@@ -100,6 +109,7 @@ static void screen_img_icn_right_event_handler (lv_event_t *e)
 	case LV_EVENT_CLICKED:
 	{
 		lv_demo_music_album_next(true);
+		last_song();
 		break;
 	}
 	default:

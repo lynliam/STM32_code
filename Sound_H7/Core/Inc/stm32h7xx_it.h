@@ -56,9 +56,10 @@ void DebugMon_Handler(void);
 void PendSV_Handler(void);
 void SysTick_Handler(void);
 void DMA1_Stream0_IRQHandler(void);
+void USART2_IRQHandler(void);
 void TIM16_IRQHandler(void);
 /* USER CODE BEGIN EFP */
-
+extern uint8_t Rx_data[5];
 /* USER CODE END EFP */
 
 #ifdef __cplusplus
